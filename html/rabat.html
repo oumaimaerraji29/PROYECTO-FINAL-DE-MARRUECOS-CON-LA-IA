@@ -1,0 +1,453 @@
+<!doctype html>
+<html lang="es" data-bs-theme="auto">
+
+<head>
+  <!--Metas-->
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description"
+    content="Prepárate para sumergirte en la cultura, la historia y la belleza de Marruecos mientras nuestro compañero de viajes inteligente te acompaña en cada paso del camino, asegurándose de que tu viaje sea inolvidable y sin complicaciones. ¡Descubre Marruecos de una manera completamente nueva con nuestro blog de viajes y su compañero de viajes inteligente!" />
+  <meta name="keywords"
+    content="Morocco, Marruecos, Maroc, Rabat, Marrakech, Casablanca, Morocco national football team, marocco, tanger, essaouira, Agadir" />
+  <meta name="author" content="Oumaima Erraji" />
+  <meta name="copyright" content="Copyright Morocco Exploration" />
+  <title id="title">Explorando Marruecos: Viajes sin complicaciones con nuestro compañero de viaje inteligente</title>
+
+  <!-- - favicon-->
+  <link rel="shortcut icon" href="/imagenes/marruecos.png" type="image/svg+xml">
+  <!--BOOTSTRAP CSS-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.2/css/bootstrap.min.css">
+  <!---font awesome-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!--CSS OUMAIMA-->
+  <link href="/style.css" rel="stylesheet">
+  <link rel="stylesheet" href="/css/rabat.css">
+</head>
+
+<!------------------------------------------------BODY---------------------------------------------------------->
+
+<body>
+
+  <!---------------HEADER-------------->
+  <div>
+    <div class="header-dark">
+      <nav class="navbar navbar-dark navbar-expand-md navigation-clean-search">
+        <div class="container">
+          <a class="navbar-brand" href="/index.html"><b>Moroccan Exploration</b></a><button class="navbar-toggler"
+            data-toggle="collapse" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span
+              class="navbar-toggler-icon"></span></button>
+          <div class="collapse navbar-collapse" id="navcol-1">
+            <ul class="nav navbar-nav">
+              <li class="nav-item" role="presentation"><a class="nav-link" href="/index.html">Inicio</a></li>
+              <li class="dropdown"><a class="dropdown-toggle nav-link dropdown-toggle" data-toggle="dropdown"
+                  aria-expanded="false" href="#">Destinos</a>
+                <div class="dropdown-menu" role="menu">
+                  <a class="dropdown-item" href="/html/rabat.html"><img src="/imagenes/rabat.png">Rabat</a>
+                  <a class="dropdown-item" href="/html/marrakech.html"><img
+                      src="/imagenes/marrakech-essaouira.png">Marrakech</a>
+                  <a class="dropdown-item" href="/html/chefchaoun.html"><img
+                      src="/imagenes/tanger-mapa.png">Chefchaoun</a>
+                  <a class="dropdown-item" href="/html/casablanca.html"><img
+                      src="/imagenes/casablanca.png">Casablanca</a>
+                  <a class="dropdown-item" href="/html/tanger.html"><img src="/imagenes/tanger-mapa.png">Tanger</a>
+                  <a class="dropdown-item" href="/html/essaouira.html"><img
+                      src="/imagenes/marrakech-essaouira.png">Essaouira</a>
+
+                </div>
+              </li>
+              <li class="dropdown"><a class="dropdown-toggle nav-link dropdown-toggle" data-toggle="dropdown"
+                  aria-expanded="false" href="#">Que ver </a>
+                <div class="dropdown-menu" role="menu">
+                  <a class="dropdown-item" role="presentation" href="/html/argan.html">El Oro marroqui</a>
+                  <a class="dropdown-item" role="presentation" href="#">Playas</a>
+                  <a class="dropdown-item" role="presentation" href="/html/alimentos.html">alimentos</a>
+                  <a class="dropdown-item" role="presentation" href="/html/gastronomia.html">Gastronomia</a>
+                  <a class="dropdown-item" role="presentation" href="/html/cultura.html">Cultura</a>
+                  <a class="dropdown-item" role="presentation" href="#">Actividades</a>
+                  <a class="dropdown-item" role="presentation" href="#">Negocios</a>
+                </div>
+              </li>
+
+              <li class="nav-item" role="presentation"><a class="nav-link" href="/html/sobre-nosotros.html">Sobre
+                  Nosotros</a></li>
+              <li class="nav-item" role="presentation"><a class="nav-link" href="/html/contacto.html">Contacto</a></li>
+            </ul>
+            <form class="form-inline mr-auto" target="_self">
+              <div class="form-group">
+                <label for="search-field"><i class="fa fa-search"></i></label>
+                <input class="form-control search-field" type="search" name="search" id="search-field">
+              </div>
+            </form>
+            </span><a class="btn btn-light action-button" role="button" href="/html/cuenta.html">Cuenta</a>
+
+            <!--Botón para abrir el modal-->
+            <button type="button" class="btn_modal btn btn-primary" data-toggle="modal" data-target="#videoModal">
+              Modal
+            </button>
+
+            <!-- Modal de Video-->
+            <div class="modal fade" id="videoModal" tabindex="-1" role="dialog" aria-labelledby="videoModalLabel"
+              aria-hidden="true">
+              <div class="modal-dialog modal-centered" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Cerrar">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <div class="modal-body">
+                    <div class="embed-responsive embed-responsive-16by9">
+                      <!-- mi video -->
+                      <video id="videoPlayer" class="embed-responsive-item" width="1000" height="900" controls autoplay
+                        loop>
+                        <source src="/videos/welcome.mp4" type="video/mp4">
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!----FINAL DEL BUTTON DEL MODAL---->
+          </div>
+        </div>
+      </nav>
+    </div>
+  </div>
+  <!------------------FINAL HEADER---------------------->
+<main>
+
+    <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <!--video -->
+            <video controls width="100%" height="auto" autoplay loop>
+              <source src="/videos/rabat-2.mp4" type="video/mp4">
+            </video>
+          </div>
+          <div class="col-md-6">
+            <!--texto -->
+            <h2>Encanto cultural en Rabat, Marruecos.</h2>
+            <p>Rabat, la encantadora capital de Marruecos, es una ciudad que combina a la perfección su rica historia con un ambiente moderno y vibrante. Encontrarás maravillas arquitectónicas como la imponente Torre Hassan y la exquisita Kasbah de los Udayas, que te transportarán a épocas pasadas. Sus calles están impregnadas de una esencia auténtica, donde los zocos tradicionales te invitan a perderte entre sus laberintos llenos de colores, aromas y sabores exóticos.<br>
+
+                Pero Rabat no se limita solo a su pasado histórico. La ciudad también es un centro de innovación y progreso, con modernas infraestructuras, elegantes avenidas y una bulliciosa escena cultural. Alberga importantes instituciones educativas, museos fascinantes y una variada oferta artística que refleja su dinamismo.<br>
+                
+                La ubicación privilegiada de Rabat en la costa atlántica también la convierte en un destino ideal para los amantes del mar y el sol. Sus playas de arena dorada ofrecen un oasis de tranquilidad y belleza natural, perfecto para relajarse y disfrutar de impresionantes vistas al océano.<br>
+                
+                Rabat es una ciudad que te cautivará con su encanto, historia y autenticidad. Desde su patrimonio cultural hasta su espíritu contemporáneo, te invita a sumergirte en una experiencia única que combina lo antiguo y lo moderno en perfecta armonía.</p>
+          </div>
+        </div>
+      
+        <!------>
+          <div class="container">
+            <div class="row justify-content-center">
+              <div class="col-6">
+                <div class="text-center">
+                  <button class="btn_leer btn-primary" onclick="typeWriter()"><span>Leer más</span></button>
+                  <p id="demo"></p>
+                </div>
+              </div>
+            </div>
+          </div>
+      </div>
+
+<!------>
+<section class="alojamiento">
+    <div class="container-fluid">
+        <h2>Alojamiento</h2>
+        <p class="lead">
+            <b>¡Bienvenidos a Rabat</b>, la hermosa capital de Marruecos! Si estás planeando visitar esta encantadora ciudad, déjame mostrarte los alojamientos que puedes encontrar y dónde buscarlos para que tu estancia sea inolvidable.<br>
+
+            Rabat cuenta con una amplia gama de opciones de alojamiento para satisfacer todos los gustos y presupuestos. Desde lujosos hoteles de cinco estrellas hasta acogedores riads tradicionales, aquí encontrarás el lugar perfecto para hospedarte.<br>
+            
+            1. Hoteles de lujo: Si buscas una experiencia de alojamiento de primer nivel, Rabat cuenta con una selección de hoteles de lujo que te dejarán maravillado. Desde reconocidas cadenas hoteleras internacionales hasta exclusivos establecimientos boutique, estos hoteles ofrecen un servicio impecable, comodidades de primera clase y una ubicación privilegiada en el corazón de la ciudad. Algunos de los mejores hoteles de lujo en Rabat incluyen el Hotel La Tour Hassan Palace, Sofitel Rabat Jardin des Roses y Le Dhow.<br>
+            
+            2. Riads tradicionales: Para sumergirte en la auténtica cultura marroquí, te recomiendo alojarte en un riad. Estos encantadores alojamientos son casas tradicionales convertidas en hoteles boutique. Caracterizados por su arquitectura típica, patios interiores, exquisita decoración y atención personalizada, los riads ofrecen una experiencia íntima y auténtica. Algunos riads populares en Rabat son Riad Kalaa, Riad Dar El Kebira y Riad Sakina.<br>
+            
+            3. Apartamentos y alquileres vacacionales: Si prefieres tener más independencia y privacidad durante tu estancia, puedes optar por alquilar un apartamento o una casa vacacional. Hay varias plataformas en línea, como Airbnb y Booking.com, donde puedes encontrar una amplia selección de opciones de alquiler en Rabat. Estos alojamientos son ideales para familias o grupos de amigos que desean tener su propio espacio y disfrutar de una mayor libertad.<br>
+            
+            Al buscar alojamientos en <b>Rabat</b>, te recomiendo explorar las siguientes opciones:<br>
+            
+            - Sitios web de reservas en línea: Utiliza plataformas como Booking.com, Expedia, Hotels.com o Airbnb para buscar y comparar diferentes opciones de alojamiento en Rabat. Estas páginas ofrecen filtros de búsqueda para refinar tus preferencias y encontrar el lugar perfecto para ti.<br>
+            
+            - Recomendaciones y opiniones de otros viajeros: Lee reseñas de otros viajeros en sitios web de viajes como TripAdvisor o consultando blogs de viajes. Las experiencias y recomendaciones de otros huéspedes pueden ayudarte a tomar una decisión informada sobre dónde alojarte.<br>
+            
+            - Asesoramiento de agencias de viajes: Si prefieres contar con la ayuda de expertos, puedes acudir a agencias de viajes especializadas en Marruecos. Estos profesionales pueden ofrecerte recomendaciones personalizadas y ayudarte a organizar tu estancia en Rabat.<br>
+            
+            Recuerda que la ubicación es importante al elegir tu alojamiento en Rabat. Si deseas estar cerca de los principales lugares de interés turístico, busca alojamientos en la medina, la Kasbah des Oudaias o cerca de la Torre Hassan.<br>
+          </p>
+
+    </div>
+</section>
+
+<!----->
+<div class="line mb-3 mx-auto"></div>
+<!------>
+<section class="hacer">
+    <div class="container-fluid">
+        <h2>Cosas que ver y hacer</h2>
+        <p class="lead">
+            Rabat, la capital de Marruecos, es una ciudad llena de encanto y rica en historia y cultura:<br>
+
+1. <b>Kasbah des Oudaias</b>: Explora este encantador barrio histórico con sus calles pintorescas, casas blancas y azules, y vistas panorámicas al mar. Visita el Museo de Artes Marroquíes para descubrir arte y artesanía tradicionales.<br>
+
+2. <b>Torre Hassan</b>: Admira esta majestuosa torre, un minarete inacabado del siglo XII que representa la grandeza de la arquitectura almohade. Aprecia la mezquita y el mausoleo cercano.<br>
+
+3. <b>Mausoleo de Mohammed V</b>: Visita este lugar sagrado que honra al rey Mohammed V y sus dos hijos. El mausoleo es una obra maestra arquitectónica con detalles exquisitos.<br>
+
+4. <b>Medina de Rabat</b>: Sumérgete en la vida auténtica de la medina, con sus estrechas calles llenas de tiendas, mercados tradicionales y la bulliciosa atmósfera marroquí.<br>
+
+5. <b>Jardín de las Naciones</b>: Relájate en este hermoso jardín, disfrutando de su exuberante vegetación y su tranquilidad. Es un lugar perfecto para descansar y escapar del bullicio de la ciudad.<br>
+
+6. <b>Museo de Arte Contemporáneo</b>: Explora el mundo del arte contemporáneo marroquí y internacional en este museo, que alberga una impresionante colección de obras de arte moderno.<br>
+
+7. <b>Avenida Mohammed VI</b>: Descubre la parte moderna de Rabat en esta avenida, donde encontrarás tiendas de moda, cafeterías elegantes y una arquitectura contemporánea.<br>
+
+8. <b>Jardín de la Mechouar</b>: Otro hermoso jardín para explorar, con sus senderos serpenteantes, fuentes y áreas de descanso. Es un lugar perfecto para un paseo tranquilo.<br>
+
+9. <b>Chellah</b>: Visita este antiguo asentamiento romano que más tarde se convirtió en una necrópolis islámica. Explora las ruinas, los jardines y disfruta de la atmósfera histórica.<br>
+
+10. <b>Playas</b>: Rabat cuenta con hermosas playas a lo largo de su costa atlántica. Disfruta del sol y el mar en lugares como la playa de Salé y la playa de Mehdia.<br>
+
+          </p>
+    </div>
+</section>
+
+<!----->
+<div class="line mb-3 mx-auto"></div>
+<!------>
+<section class="gastronomia">
+
+    <div class="container-fluid">
+        <h2>Gastronomia de la capital Marroqui</h2>
+        <p class="lead">
+           <b>La gastronomía de Rabat</b>, al igual que en todo Marruecos, es rica en sabores, especias y platos tradicionales:<br>
+
+1. <b>Tagine</b>: El tagine es uno de los platos más emblemáticos de la cocina marroquí. Consiste en un guiso cocinado lentamente en un recipiente de barro llamado "tagine". Puedes encontrar una variedad de tagines en Rabat, desde tagine de cordero con ciruelas y almendras hasta tagine de pollo con limón y aceitunas.<br>
+
+2. <b>Cuscús</b>: El cuscús es otro plato tradicional marroquí que se disfruta en Rabat. Se compone de granos de sémola al vapor acompañados de verduras, carne (como cordero, pollo o ternera) y una sabrosa salsa. Es común que se sirva los viernes, día sagrado en la cultura marroquí.<br>
+
+3. <b>Harira</b>: La harira es una sopa espesa y reconfortante que se sirve especialmente durante el mes sagrado del Ramadán. Está hecha a base de lentejas, tomates, cebollas, especias y carne. Es un plato muy popular y se considera un alimento reconfortante.<br>
+
+4. <b>Pastillas</b>: Las pastillas son una delicia marroquí que consiste en capas finas de masa filo rellenas de pollo, almendras y una mezcla de especias. Están aromatizadas con canela y azúcar glas, lo que le da un equilibrio entre sabores dulces y salados.<br>
+
+5. <b>Mechoui</b>: El mechoui es un cordero asado lentamente en un horno de tierra. La carne se cocina hasta que está tierna y jugosa, y se sazona con especias marroquíes tradicionales. Es un plato popular en ocasiones festivas y celebraciones.<br>
+
+6. <b>Pescado y mariscos</b>: Dado que Rabat está ubicada en la costa, ofrece una gran variedad de pescados y mariscos frescos. Puedes disfrutar de platos como la sardina a la parrilla, el chermoula (pescado marinado en una mezcla de especias y hierbas) y el tajine de pescado.<br>
+
+7. <b>Dulces marroquíes</b>: No puedes dejar Rabat sin probar los deliciosos dulces marroquíes. Los pasteles de miel, los ghriba (galletas de almendra), los chebakia (rosquillas con miel) y los briouats (triángulos de masa filo rellenos) son solo algunos de los dulces que puedes encontrar en Rabat.<br>
+
+Además de estos platos tradicionales, Rabat también ofrece una <b>amplia variedad</b> de restaurantes que sirven cocina internacional y fusiones gastronómicas. Puedes encontrar opciones que van desde restaurantes elegantes hasta puestos callejeros que ofrecen auténtica comida marroquí. ¡No dudes en explorar y disfrutar de la rica gastronomía de Rabat durante tu visita!<br>
+
+          </p>
+    </div>
+</section>
+<!----->
+<div class="line mb-3 mx-auto"></div>
+<!------>
+<sction class="transporte">
+    <div class="container-fluid">
+        <h2>Cómo desplazarse en la Ciudad</h2>
+        <p class="lead">
+            En <b> Rabat</b>, hay varias opciones de transporte disponibles para desplazarse por la ciudad:<br>
+
+            1.<b>Tranvía</b>: Rabat cuenta con un sistema de tranvía moderno y eficiente que cubre muchas áreas de la ciudad. Es una forma conveniente y asequible de moverse, con tarifas económicas y frecuencias regulares. El precio del billete depende de la distancia recorrida.<br>
+            
+            2. <b>Taxis</b>: Los taxis son otro medio de transporte común en Rabat. Puedes encontrar taxis individuales (pequeños) y taxis compartidos (grand taxis) que funcionan en rutas específicas. Los taxis individuales suelen ser más caros, ya que ofrecen un servicio más exclusivo, mientras que los taxis compartidos suelen ser más económicos, ya que se comparten con otros pasajeros.<br>
+            
+            3.<b>Autobuses</b> : Rabat cuenta con una red de autobuses urbanos que cubren diferentes áreas de la ciudad. Los autobuses son una opción económica para moverse, aunque a veces pueden estar llenos de gente y las rutas pueden resultar un poco confusas para los visitantes. Los billetes de autobús suelen ser baratos y se pueden comprar directamente al conductor.<br>
+            
+            4. <b>Alquiler de bicicletas</b>: Rabat cuenta con un sistema de alquiler de bicicletas llamado "Medina Bike" que permite a los residentes y visitantes alquilar bicicletas por períodos cortos. Es una forma ecológica y económica de moverse por la ciudad, especialmente en áreas más céntricas y turísticas.<br>
+            
+            En cuanto a los <b>precios</b>, el tranvía y los autobuses suelen ser las opciones de transporte <b>más económicas</b> en Rabat. Los taxis individuales pueden ser más caros, especialmente si se utilizan para distancias más largas o para un servicio exclusivo. Los taxis compartidos suelen ser más asequibles en comparación. El alquiler de bicicletas también es una opción económica, especialmente si planeas moverte dentro de áreas más cercanas.<br>
+            
+            Recuerda que los precios pueden variar y es recomendable preguntar sobre las tarifas antes de abordar cualquier medio de transporte. Además, siempre es aconsejable negociar el precio de los taxis antes de iniciar el viaje para evitar sorpresas.<br>
+            
+            Es importante tener en cuenta que la disponibilidad y el costo del transporte pueden estar sujetos a cambios, por lo que es recomendable verificar la información actualizada durante tu visita a Rabat.<br>
+
+          </p>
+    </div>
+
+</sction>
+
+<!---Galeria--->
+
+<div class="container galeria_rabat">
+    <div class="row d-flex flex-wrap align-items-center" data-toggle="modal" data-target="#lightbox">
+      <div class="col-12 col-md-6 col-lg-3">
+        
+    <img src="/imagenes/hassan-rabat1.jpg" data-target="#indicators" data-slide-to="0" alt="" /> 
+      </div>
+      <div class="col-12 col-md-6 col-lg-3">
+           <img src="/imagenes/kasbah-rabat1.jpg" data-target="#indicators" data-slide-to="1" alt="" />
+      </div>
+      <div class="col-12 col-md-6 col-lg-3">
+         <img src="/imagenes/mdina-rabat.jpg" data-target="#indicators" data-slide-to="2"  alt="" />
+      </div>
+      <div class="col-12 col-md-6 col-lg-3">
+           <img src="/imagenes/rabat-1.jpg" data-target="#indicators" data-slide-to="3" alt="" />
+      </div>
+    </div>
+</div>
+    
+
+<div class="container">
+    <section>
+      <div class="row">
+        <div class="col-md-8 offset-md-2 btn_micro">
+          <p>¿Te gusta Rabat y te animas a visitarla? ¡Aquí tienes un enlace muy interesante!</p>
+    
+          <div class="col-md-12 centered">
+            <a href="https://www.bing.com/travel/place-information?q=Rabat&SID=c1bdba78-6d2f-350d-fb4e-8a0636bc1a1f&form=TGBWPT" target="_blank" class="btn btn-primary">VISITA ESTE ENLACE</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+</main>
+
+
+ <!---------------------------------------------------------->
+ 
+ <footer>
+    <div class="container-fluid foot mx-auto">
+        <div class="row justify-content-center top-part">
+            <div class="col-md-6 text-center center-content">
+                <div class="d-flex-inline">
+                    <h3 class="footer-heading">¿Te interesaría una colaboración?</h3>
+                </div>
+                <div class="d-flex-inline">
+                    <p>"¡Únete a mi equipo y juntos hagamos grandes cosas! Estoy buscando mentes creativas y apasionadas para colaborar en proyectos emocionantes. Si te encanta el desafío y quieres formar parte de algo especial, ¡hablemos y descubramos las oportunidades que podemos crear juntos!"</p>
+                </div>
+            
+                <div class="d-flex-inline pt-2">
+                    <button class="btn-pink btn" onclick="mostrarInformacionContacto()">Contactarme</button>
+                </div>
+
+            </div>
+        </div>
+        <div class="row">
+            <div class="line mb-3 mx-auto"></div>
+            <div class="d-md-flex px-5 justify-content-around bd-highlight col-md-12 pt-5 pb-5 mb-3 foot_maroc">
+                <div class="p-2 flex-fill bd-highlight mb-5 mb-md-0">
+                    <h3>Moroccan Exploration</h3>
+                    <small>Copyright &copy 2023</small>
+                </div>
+                <div class="p-2 flex-fill bd-highlight mb-3 mb-md-0">
+                    <h5 class="places">Enlaces Rapidos</h5>
+                    <p class="mb-0">Bydgoszcz Centrum Burnesa</p>
+                    <p class="mb-0">ul Pzzenmdcwa 25, ibsura 24,</p>
+                    <p class="mb-0">B5-7GB Bydgosrdz, Poland</p>
+                </div>
+                <div class="p-2 flex-fill bd-highlight mb-3 mb-md-0">
+                    <h5 class="places">Ofertas</h5>
+                    <p class="mb-0">ul Reyana 2-4</p>
+                    <p class="mb-0">A0-100 Torun,</p>
+                    <p class="mb-0">Poland</p>
+                </div>
+                <div class="p-2 flex-fill bd-highlight mb-3 mb-md-0">
+                    <h5 class="places">Mejores destinos</h5>
+                    <p class="mb-0">Brain Embassy</p>
+                    <p class="mb-0">Alaya Jerasublisuble RS123</p>
+                    <p class="mb-0">02-222 Warsawa</p>
+                </div>
+                <div class="p-2 flex-fill bd-highlight mb-3 mb-md-0">
+                    <h5 class="places">Objetivos</h5>
+                    <p class="mb-0">Relajarse</p>
+                    <p class="mb-0">Negocios</p>
+                    <p class="mb-0">Surf</p>
+                </div>
+                <div class="p-2 flex-fill bd-highlight mb-3 mb-md-0">
+                    <h5 class="places">Direccion</h5>
+                    <p class="mb-0">Av. Omar Ibn Al Khattab, Rabat, Marruecos</p>
+                </div>
+            </div>
+            <div class="line mb-3 mx-auto"></div>
+        </div>
+        <div class="row bottom-part">
+            <div class="d-lg-flex justify-content-between bd-highlight col-md-12 mb-5 px-5">
+                <div class="p-2 align-self-center flex-fill bd-highlight redes">
+                    <div class="fa fa-facebook px-2"></div>
+                    <div class="fa fa-linkedin px-2"></div>
+                    <div class="fa fa-twitter px-2"></div>
+                    <div class="fa fa-instagram px-2"></div>
+                </div>
+                          
+                <div class="p-2 row flex-fill bd-highlight justify-content-left foot_final">
+                    <div class="p-2 d-lg-flex">
+                        <div class="p-2 flex-fill d-flex bd-highlight">Servicios</div>
+                        <div class="p-2 flex-fill d-flex bd-highlight">Sobre nosotros</div>
+                        <div class="p-2 flex-fill d-flex bd-highlight">Ofertas</div>
+                        <div class="p-2 flex-fill d-flex bd-highlight">Testimonios</div>
+                        <div class="p-2 flex-fill d-flex bd-highlight">Consejos</div>
+                        <div class="p-2 flex-fill d-flex bd-highlight">Blog</div>
+                        <div class="p-2 flex-fill d-flex bd-highlight">Colaborar</div>
+                        <div class="p-2 flex-fill d-flex bd-highlight">Tienda</div>
+                        <div class="p-2 flex-fill d-flex bd-highlight">Contacto</div>
+                    </div>
+                </div>
+                <div class="p-2 align-self-center flex-fill bd-highlight">
+                    <div class="fa fa-mobile px-2 grey-text">&nbsp;&nbsp;<span id="contact">00212688779290</span></div>
+                    <div class="fa fa-envelope-o px-2 grey-text">&nbsp;&nbsp;moroccan-shop@example.com</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</footer>
+
+
+
+  <!-- Modal para mandar al visitador a la pagina -->
+  <div id="modalTab" class="modal-tab">
+    <button class="button-open-modal" onclick="mostrarModal()">Abrir</button>
+    <a href="#" class="close" onclick="cerrarModal()">&times;</a>
+    <div class="modal-tab-content">
+      <div class="presentation text-center">
+        <div class="ir">
+            <h2>¿A dónde quieres ir?</h2>
+            <a href="#" style="display: block;">Casablanca</a>
+            <a href="#" style="display: block;">Rabat</a>
+            <a href="#" style="display: block;">Chefchaouen</a>
+            <a href="#" style="display: block;">Marrakech</a>
+            <a href="#" style="display: block;">Fez</a>
+            <a href="#" style="display: block;">Tanger</a>
+            <a href="#" style="display: block;">Essaouira</a>
+            <a href="#" style="display: block;">Agadir</a>
+            <a href="#" style="display: block;">Dakhla</a>
+            <a href="#" style="display: block;">Laayoune</a>
+          </div>
+        <div class="objetivo text-center">
+          <h2>¿Cuál es tu objetivo de viaje?</h2>
+          <a href="#" class="d-block">Descansar y relajarse</a>
+          <a href="#" class="d-block">Conocer nuevas culturas y tradiciones</a>
+          <a href="#" class="d-block">Visitar lugares históricos</a>
+          <a href="#" class="d-block">Probar comida local</a>
+          <a href="#" class="d-block">El tesoro de Marruecos: Argán</a>
+          <a href="#" class="d-block">Actividad deportiva: Surf</a>
+          <a href="#" class="d-block">Aprender nuevo idioma</a>
+          <a href="#" class="d-block">Hacer negocios</a>
+          <a href="#" class="d-block">Participar en eventos culturales</a>
+          <a href="#" class="d-block">Realizar voluntariado en una comunidad</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+<!-------------------FINAL DEL FOOTER-------------------------------->
+
+<!-----MI JS-->
+<script src="/main.js"></script>
+<script src="/js/rabat.js"></script>
+
+<!----JS DE BOOTSTRAP-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js" integrity="sha384-fbbOQedDUMZZ5KreZpsbe1LCZPVmfTnH7ois6mU1QK+m14rQ1l2bGBq41eYeM/fS" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.10.2/umd/popper.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/js/bootstrap.min.js"></script>
+
+
+  </body>
+</html>

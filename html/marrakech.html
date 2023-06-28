@@ -1,0 +1,446 @@
+<!doctype html>
+<html lang="es" data-bs-theme="auto">
+
+<head>
+  <!--Metas-->
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description"
+    content="Prepárate para sumergirte en la cultura, la historia y la belleza de Marruecos mientras nuestro compañero de viajes inteligente te acompaña en cada paso del camino, asegurándose de que tu viaje sea inolvidable y sin complicaciones. ¡Descubre Marruecos de una manera completamente nueva con nuestro blog de viajes y su compañero de viajes inteligente!" />
+  <meta name="keywords"
+    content="Morocco, Marruecos, Maroc, Rabat, Marrakech, Casablanca, Morocco national football team, marocco, tanger, essaouira, Agadir" />
+  <meta name="author" content="Oumaima Erraji" />
+  <meta name="copyright" content="Copyright Morocco Exploration" />
+  <title id="title">Explorando Marruecos: Viajes sin complicaciones con nuestro compañero de viaje inteligente</title>
+
+  <!-- - favicon-->
+  <link rel="shortcut icon" href="/imagenes/marruecos.png" type="image/svg+xml">
+  <!--BOOTSTRAP CSS-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.2/css/bootstrap.min.css">
+  <!---font awesome-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!--CSS OUMAIMA-->
+  <link href="/style.css" rel="stylesheet">
+  <link rel="stylesheet" href="/css/marrakech.css">
+</head>
+
+<!------------------------------------------------BODY---------------------------------------------------------->
+
+<body>
+
+  <!---------------HEADER-------------->
+  <div>
+    <div class="header-dark">
+      <nav class="navbar navbar-dark navbar-expand-md navigation-clean-search">
+        <div class="container">
+          <a class="navbar-brand" href="/index.html"><b>Moroccan Exploration</b></a><button class="navbar-toggler"
+            data-toggle="collapse" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span
+              class="navbar-toggler-icon"></span></button>
+          <div class="collapse navbar-collapse" id="navcol-1">
+            <ul class="nav navbar-nav">
+              <li class="nav-item" role="presentation"><a class="nav-link" href="/index.html">Inicio</a></li>
+              <li class="dropdown"><a class="dropdown-toggle nav-link dropdown-toggle" data-toggle="dropdown"
+                  aria-expanded="false" href="#">Destinos</a>
+                <div class="dropdown-menu" role="menu">
+                  <a class="dropdown-item" href="/html/rabat.html"><img src="/imagenes/rabat.png">Rabat</a>
+                  <a class="dropdown-item" href="/html/marrakech.html"><img
+                      src="/imagenes/marrakech-essaouira.png">Marrakech</a>
+                  <a class="dropdown-item" href="/html/chefchaoun.html"><img
+                      src="/imagenes/tanger-mapa.png">Chefchaoun</a>
+                  <a class="dropdown-item" href="/html/casablanca.html"><img
+                      src="/imagenes/casablanca.png">Casablanca</a>
+                  <a class="dropdown-item" href="/html/tanger.html"><img src="/imagenes/tanger-mapa.png">Tanger</a>
+                  <a class="dropdown-item" href="/html/essaouira.html"><img
+                      src="/imagenes/marrakech-essaouira.png">Essaouira</a>
+
+                </div>
+              </li>
+              <li class="dropdown"><a class="dropdown-toggle nav-link dropdown-toggle" data-toggle="dropdown"
+                  aria-expanded="false" href="#">Que ver </a>
+                <div class="dropdown-menu" role="menu">
+                  <a class="dropdown-item" role="presentation" href="/html/argan.html">El Oro marroqui</a>
+                  <a class="dropdown-item" role="presentation" href="#">Playas</a>
+                  <a class="dropdown-item" role="presentation" href="/html/alimentos.html">alimentos</a>
+                  <a class="dropdown-item" role="presentation" href="/html/gastronomia.html">Gastronomia</a>
+                  <a class="dropdown-item" role="presentation" href="/html/cultura.html">Cultura</a>
+                  <a class="dropdown-item" role="presentation" href="#">Actividades</a>
+                  <a class="dropdown-item" role="presentation" href="#">Negocios</a>
+                </div>
+              </li>
+
+              <li class="nav-item" role="presentation"><a class="nav-link" href="/html/sobre-nosotros.html">Sobre
+                  Nosotros</a></li>
+              <li class="nav-item" role="presentation"><a class="nav-link" href="/html/contacto.html">Contacto</a></li>
+            </ul>
+            <form class="form-inline mr-auto" target="_self">
+              <div class="form-group">
+                <label for="search-field"><i class="fa fa-search"></i></label>
+                <input class="form-control search-field" type="search" name="search" id="search-field">
+              </div>
+            </form>
+            </span><a class="btn btn-light action-button" role="button" href="/html/cuenta.html">Cuenta</a>
+
+            <!--Botón para abrir el modal-->
+            <button type="button" class="btn_modal btn btn-primary" data-toggle="modal" data-target="#videoModal">
+              Modal
+            </button>
+
+            <!-- Modal de Video-->
+            <div class="modal fade" id="videoModal" tabindex="-1" role="dialog" aria-labelledby="videoModalLabel"
+              aria-hidden="true">
+              <div class="modal-dialog modal-centered" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Cerrar">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <div class="modal-body">
+                    <div class="embed-responsive embed-responsive-16by9">
+                      <!-- mi video -->
+                      <video id="videoPlayer" class="embed-responsive-item" width="1000" height="900" controls autoplay
+                        loop>
+                        <source src="/videos/welcome.mp4" type="video/mp4">
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!----FINAL DEL BUTTON DEL MODAL---->
+          </div>
+        </div>
+      </nav>
+    </div>
+  </div>
+  <!------------------FINAL HEADER---------------------->
+<main>
+
+    <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <!--video -->
+            <video controls width="100%" height="auto" autoplay loop>
+              <source src="/videos/ourika-1.mp4" type="video/mp4">
+            </video>
+          </div>
+          <div class="col-md-6">
+            <!--texto -->
+            <h2>Encanto cultural en la Ciudad Roja: Marrakech</h2>
+            <p><b>Marrakech</b>, conocida como la "Ciudad Roja" de Marruecos, es un destino fascinante que cautiva los sentidos y sumerge a sus visitantes en un mundo lleno de encanto cultural. <br>Sus estrechas calles laberínticas, animados zocos y bulliciosos mercados crean un ambiente vibrante y único. El centro neurálgico de la ciudad es la famosa plaza de Jemaa el-Fna, un lugar mágico donde se mezclan aromas exóticos, sonidos de músicos callejeros y la danza hipnótica de las serpientes encantadoras.<br> Marrakech es también hogar de impresionantes palacios y jardines, como el Palacio de la Bahía y los Jardines de Majorelle, donde los colores vibrantes y la arquitectura tradicional se combinan en un espectáculo visual deslumbrante. Esta ciudad histórica ha sido un crisol de influencias culturales a lo largo de los siglos, reflejándose en su arquitectura, gastronomía y tradiciones. <br> Explorar los zocos, probar la deliciosa cocina marroquí y relajarse en los hammams locales son solo algunas de las experiencias inolvidables que ofrece Marrakech. Sumérgete en su encanto, deja que sus calles te envuelvan y descubre la magia de esta cautivadora ciudad.</p>
+          </div>
+        </div>
+      
+        <!------>
+          <div class="container">
+            <div class="row justify-content-center">
+              <div class="col-6">
+                <div class="text-center">
+                  <button class="btn_leer btn-primary" onclick="typeWriter()"><span>Leer más</span></button>
+                  <p id="demo"></p>
+                </div>
+              </div>
+            </div>
+          </div>
+      </div>
+
+<!------>
+<section class="alojamiento">
+    <div class="container-fluid">
+        <h2>Alojamiento</h2>
+        <p class="lead">
+
+
+
+<b>Bienvenido a Marrakech</b>, una ciudad llena de encanto y belleza en Marruecos. Si estás planeando visitar esta vibrante ciudad, es importante elegir el alojamiento adecuado para disfrutar al máximo de tu estancia. Marrakech ofrece una amplia variedad de opciones de alojamiento, desde hoteles boutique hasta riads tradicionales y lujosos resorts. Aquí te presentamos una guía para encontrar el alojamiento perfecto que se adapte a tus necesidades y te brinde una experiencia inolvidable en Marrakech.<br>
+<br>
+1. <b>Riads tradicionales</b>:<br>
+Los riads son emblemáticos de Marrakech y ofrecen una auténtica experiencia marroquí. Estas casas tradicionales están ubicadas en el corazón de la antigua medina y suelen tener un patio central con jardín o piscina. Los riads combinan la arquitectura tradicional con comodidades modernas y ofrecen habitaciones elegantes y acogedoras. Puedes buscar riads en sitios web especializados en alojamientos tradicionales marroquíes o en plataformas de reservas populares.<br>
+<br>
+2. <b>Hoteles boutique</b>:<br>
+Si buscas una experiencia más contemporánea pero con encanto, los hoteles boutique son una excelente opción. Estos hoteles más pequeños suelen tener un diseño único y ofrecen un ambiente íntimo y sofisticado. Muchos de ellos están ubicados en el centro de la ciudad, cerca de los principales lugares de interés. Algunos hoteles boutique en Marrakech ofrecen servicios de spa, restaurantes gourmet y terrazas panorámicas para disfrutar de las vistas de la ciudad.<br>
+<br>
+3. <b>Resorts de lujo</b>:<br>
+Para aquellos que buscan un alojamiento de lujo, Marrakech cuenta con impresionantes resorts que ofrecen todas las comodidades imaginables. Estos resorts suelen estar ubicados en las afueras de la ciudad, rodeados de hermosos jardines y piscinas exquisitas. Además de habitaciones elegantes, estos resorts suelen contar con restaurantes de alta cocina, spas de lujo, campos de golf y actividades recreativas. Puedes consultar sitios web de resorts de renombre o agencias de viajes especializadas en lujo para encontrar opciones exclusivas.<br>
+<br>
+4. <b>Plataformas de reservas en línea</b>:<br>
+Una forma conveniente de buscar alojamientos en Marrakech es utilizar plataformas de reservas en línea. Sitios web populares como Booking.com, Airbnb y Expedia ofrecen una amplia gama de opciones de alojamiento, desde hoteles de lujo hasta apartamentos y riads tradicionales. Estas plataformas te permiten filtrar los resultados según tus preferencias de precio, ubicación y servicios.<br>
+<br>
+Conclusión:<br>
+<b>Marrakech</b> ofrece una amplia variedad de opciones de alojamiento para todos los gustos y presupuestos. Ya sea que elijas un riad tradicional, un encantador hotel boutique o un lujoso resort, cada opción te brindará una experiencia única en esta ciudad llena de historia y cultura. No olvides investigar y comparar diferentes opciones antes de tomar una decisión final. ¡<br>
+<br> Prepárate para disfrutar de una estancia inolvidable en Marrakech, Marruecos!
+          </p>
+
+    </div>
+</section>
+
+<!----->
+<div class="line mb-3 mx-auto"></div>
+<!------>
+<section class="hacer">
+    <div class="container-fluid">
+        <h2>Cosas que ver y hacer</h2>
+        <p class="lead">
+            <b>Marrakech</b>, es una ciudad llena de historia, cultura y encanto. Aquí tienes algunas cosas que ver y hacer durante tu visita a Marrakech:<br>
+            <br>
+            1. <b>La Medina de Marrakech</b>: Explora el laberinto de callejuelas estrechas y bulliciosas de la antigua medina. Admira la arquitectura tradicional, visita los zocos llenos de colores y aromas, y sumérgete en la vida cotidiana de la ciudad.<br>
+            <br>
+            2. <b>La Plaza Jemaa el-Fna</b>: Sumérgete en la energía vibrante de esta famosa plaza, declarada Patrimonio de la Humanidad por la UNESCO. Disfruta de las actuaciones de músicos, artistas callejeros y encantadores de serpientes. Prueba la deliciosa comida callejera marroquí y explora los puestos de venta de productos locales.<br>
+            <br>
+            3. <b>Los Jardines de Majorelle</b>: Escapa del bullicio de la ciudad y visita estos hermosos jardines diseñados por el pintor francés Jacques Majorelle. Disfruta de la exuberante vegetación, los estanques y el icónico color azul característico del lugar. No te pierdas el Museo Berber y la increíble colección de arte islámico.<br>
+            <br>
+            4. <b>El Palacio de Bahía</b>: Explora este impresionante palacio del siglo XIX, que muestra la arquitectura y los detalles ornamentales típicos de Marruecos. Pasea por los hermosos jardines y admira las habitaciones decoradas con azulejos y estucos intrincados.<br>
+            <br>
+            5. <b>La Madraza de Ben Youssef</b>: Descubre una de las escuelas coránicas más antiguas y grandes de Marruecos. Admira la arquitectura islámica y los hermosos mosaicos en el patio central. Explora las celdas de los estudiantes y aprende sobre la educación tradicional en Marruecos.<br>
+            <br>
+            6. <b>El Palacio de El Badi</b>: Visita las ruinas de este palacio del siglo XVI y maravíllate con sus antiguas murallas, patios y estanques. Imagina la grandeza que alguna vez tuvo este palacio antes de ser saqueado.<br>
+            <br>
+            7. <b>La Mezquita de la Koutoubia</b>: Contempla la impresionante arquitectura de esta mezquita del siglo XII, con su minarete de 77 metros de altura. Aunque no se permite la entrada a los no musulmanes, puedes disfrutar de la vista exterior y explorar los jardines circundantes.<br>
+            <br>
+            8. <b>Los Jardines de Menara</b>: Relájate en estos hermosos jardines ubicados al oeste de la ciudad. Contempla el gran estanque y el pabellón, y disfruta de un tranquilo paseo rodeado de olivos.<br>
+            <br>
+            9.<b>Excursión al Desierto del Sahara</b>: Aprovecha la oportunidad de hacer una excursión desde Marrakech al cercano Desierto del Sahara. Explora las dunas de arena, disfruta de un paseo en camello y pasa una noche bajo las estrellas en un campamento bereber.<br>
+            <br>
+            10.<b>Disfrutar de la gastronomía marroquí</b>: No puedes irte de Marrakech sin probar la deliciosa comida local. Prueba platos tradicionales<br>
+          </p>
+    </div>
+</section>
+
+<!----->
+<div class="line mb-3 mx-auto"></div>
+<!------>
+<section class="gastronomia">
+
+    <div class="container-fluid">
+        <h2>Gastronomia de la capital Marroqui</h2>
+        <p class="lead">
+            En la gastronomía de <b>Marrakech</b>, hay varios platos y especialidades que se consideran los más famosos y representativos de la ciudad: <br>
+            <br>
+1. <b>Tajine de cordero (TANJIA)</b>: El tajine de cordero es un plato icónico de Marruecos y uno de los más famosos en Marrakech. Consiste en carne de cordero cocinada lentamente con especias, como comino, cúrcuma, jengibre y canela, junto con verduras como cebolla, zanahorias y calabacines. Se sirve caliente y tierno, y el sabor de las especias impregna cada bocado.<br>
+<br>
+2. <b>Cuscús con siete verduras</b>: El cuscús es otro plato estrella en Marruecos y Marrakech no es la excepción. El cuscús marroquí se sirve con siete verduras diferentes, como zanahorias, calabazas, nabos, pimientos, tomates, cebollas y garbanzos. La preparación del cuscús es un proceso laborioso y se obtiene un resultado suave y lleno de sabor.<br>
+<br>
+3. <b>Pastilla de pollo</b>: La pastilla es un pastel tradicional marroquí que combina lo dulce y lo salado en una deliciosa mezcla. La pastilla de pollo es un plato emblemático de Marrakech. Consiste en capas de hojaldre rellenas de pollo desmenuzado, almendras, cebolla caramelizada y especias, todo ello coronado con azúcar glasé y canela. Es una verdadera obra maestra culinaria.<br>
+<br>
+4. <b>Harira</b>: La harira es una sopa tradicional marroquí que se sirve especialmente durante el mes sagrado del Ramadán. Es una sopa espesa y nutritiva hecha con una base de lentejas, garbanzos, tomates, cebollas y una mezcla de especias, como cilantro, perejil, cúrcuma y canela. La harira se sirve como un plato principal durante el Iftar, la comida que rompe el ayuno diario durante el Ramadán.<br>
+<br>
+5. <b>Brochetas de kefta</b>: Las brochetas de kefta son una delicia popular en Marruecos y se pueden encontrar fácilmente en los puestos callejeros de Marrakech. Están hechas de carne picada de cordero o ternera sazonada con especias, como comino, cilantro y perejil, y se cocinan a la parrilla. Son jugosas y sabrosas, y se suelen servir con pan y salsa de yogur.<br>
+<br>
+6. <b>Ensalada marroquí</b>: La ensalada marroquí es una mezcla fresca de tomates, pepinos, cebollas, pimientos, aceitunas y hierbas aromáticas, aderezada con aceite de oliva, limón y especias. Es una ensalada refrescante y colorida que se sirve como guarnición o acompañamiento de otros platos.<br>
+<br>
+7. <b>Té de menta</b>: El té de menta es una bebida emblemática de Marruecos y una parte integral de la cultura marroquí. Se prepara con té verde, hojas de menta fresca y azúcar. El té se sirve en un ritual tradicional y se bebe caliente. Es una bebida refrescante y aromática que se acompaña a menudo con dulces marroquíes.<br>
+<br>
+Estos son solo algunos ejemplos de los platos más famosos de la gastronomía de Marrakech. La ciudad ofrece una amplia variedad de sabores y experiencias culinarias para satisfacer todos los gustos.<br>
+          </p>
+    </div>
+</section>
+<!----->
+<div class="line mb-3 mx-auto"></div>
+<!------>
+<sction class="transporte">
+    <div class="container-fluid">
+        <h2>Cómo desplazarse en la Ciudad</h2>
+        <p class="lead">
+            En <b>Marrakech</b>, hay varias opciones de transporte disponibles para desplazarse por la ciudad. Aquí están algunos de los medios de transporte más comunes:<br>
+            <br>
+            1. <b>Taxi</b>: Los taxis son una forma conveniente de moverse por Marrakech. Hay dos tipos de taxis: los "petits taxis" (taxis pequeños) y los "grands taxis" (taxis grandes). Los petits taxis son adecuados para distancias cortas dentro de la ciudad, mientras que los grands taxis se utilizan para viajes más largos o grupos más grandes. Los taxis suelen tener taxímetro, pero asegúrate de que esté en funcionamiento o acuerda el precio antes de subir.<br>
+            <br>
+            2.<b>Autobús</b>: El autobús es una opción económica para desplazarse en Marrakech. La compañía de autobuses urbanos se llama "La Société de Transport de Marrakech" (STM). Los autobuses cubren varias rutas por toda la ciudad y son una opción popular para los residentes locales. Sin embargo, ten en cuenta que los autobuses pueden estar llenos y a veces pueden tener horarios irregulares.<br>
+            <br>
+            3. <b>Tren</b>: Si deseas desplazarte a ciudades cercanas a Marrakech, como Casablanca o Rabat, el tren es una opción conveniente. La estación de tren principal en Marrakech es la estación de tren de Marrakech (también conocida como Gare de Marrakech). Los trenes en Marruecos son relativamente cómodos y ofrecen diferentes categorías de clase.<br>
+            <br>
+            4. <b>Bicicleta</b>: Marrakech cuenta con un sistema de bicicletas compartidas llamado "Medina Bike". Puedes alquilar una bicicleta y explorar la ciudad a tu propio ritmo. Hay estaciones de bicicletas repartidas por toda la ciudad donde puedes recoger y dejar las bicicletas. Es una opción ideal para moverse por el centro histórico de la Medina.<br>
+            <br>
+            5.<b>A pie</b>: Muchas atracciones turísticas en Marrakech se encuentran a poca distancia entre sí, especialmente en la Medina. Caminar es una forma agradable y económica de explorar la ciudad. Sin embargo, debes tener en cuenta que las calles pueden ser estrechas y estar llenas de gente, por lo que debes estar atento al tráfico y tener precaución al caminar.<br>
+            <br>
+            En cuanto a los precios, los taxis son generalmente más caros en comparación con los autobuses y las bicicletas. El precio de los taxis puede variar dependiendo de la distancia recorrida y la negociación con el conductor. Los autobuses son más baratos y tienen tarifas fijas, mientras que el alquiler de bicicletas suele ser económico, con tarifas por hora o por día.<br>
+            <br>
+            Es recomendable considerar el tipo de transporte según tus necesidades, comodidad y presupuesto al planificar tus desplazamientos en Marrakech.<br>
+            <br>
+          </p>
+    </div>
+
+</sction>
+
+<!---Galeria--->
+
+<div class="container galeria_rabat">
+    <div class="row d-flex flex-wrap align-items-center" data-toggle="modal" data-target="#lightbox">
+      <div class="col-12 col-md-6 col-lg-3">
+        
+    <img src="/imagenes/marrakech-plaza.jpg" data-target="#indicators" data-slide-to="0" alt="" /> 
+      </div>
+      <div class="col-12 col-md-6 col-lg-3">
+           <img src="/imagenes/paseo-marrakech.jpg" data-target="#indicators" data-slide-to="1" alt="" />
+      </div>
+      <div class="col-12 col-md-6 col-lg-3">
+         <img src="/imagenes/marrakech-3 (1).jpg" data-target="#indicators" data-slide-to="2"  alt="" />
+      </div>
+      <div class="col-12 col-md-6 col-lg-3">
+           <img src="/imagenes/marrakech-3 (2).jpg" data-target="#indicators" data-slide-to="3" alt="" />
+      </div>
+    </div>
+</div>
+    
+
+<div class="container">
+    <section>
+      <div class="row">
+        <div class="col-md-8 offset-md-2 btn_micro">
+          <p>¿Te gusta Marrakech y te animas a visitarla? ¡Aquí tienes un enlace muy interesante!</p>
+    
+          <div class="col-md-12 centered">
+            <a href="https://www.bing.com/travel/place-information?q=Marrakesh&SID=af4d7390-63b3-ee05-e4e3-66fb4c52f8ec&form=TGBWPT&entrypoint=TGBWPT" target="_blank" class="btn btn-primary">VISITA ESTE ENLACE</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+</main>
+
+
+ <!---------------------------------------------------------->
+ 
+ <footer>
+    <div class="container-fluid foot mx-auto">
+        <div class="row justify-content-center top-part">
+            <div class="col-md-6 text-center center-content">
+                <div class="d-flex-inline">
+                    <h3 class="footer-heading">¿Te interesaría una colaboración?</h3>
+                </div>
+                <div class="d-flex-inline">
+                    <p>"¡Únete a mi equipo y juntos hagamos grandes cosas! Estoy buscando mentes creativas y apasionadas para colaborar en proyectos emocionantes. Si te encanta el desafío y quieres formar parte de algo especial, ¡hablemos y descubramos las oportunidades que podemos crear juntos!"</p>
+                </div>
+            
+                <div class="d-flex-inline pt-2">
+                    <button class="btn-pink btn" onclick="mostrarInformacionContacto()">Contactarme</button>
+                </div>
+
+            </div>
+        </div>
+        <div class="row">
+            <div class="line mb-3 mx-auto"></div>
+            <div class="d-md-flex px-5 justify-content-around bd-highlight col-md-12 pt-5 pb-5 mb-3 foot_maroc">
+                <div class="p-2 flex-fill bd-highlight mb-5 mb-md-0">
+                    <h3>Moroccan Exploration</h3>
+                    <small>Copyright &copy 2023</small>
+                </div>
+                <div class="p-2 flex-fill bd-highlight mb-3 mb-md-0">
+                    <h5 class="places">Enlaces Rapidos</h5>
+                    <p class="mb-0">Bydgoszcz Centrum Burnesa</p>
+                    <p class="mb-0">ul Pzzenmdcwa 25, ibsura 24,</p>
+                    <p class="mb-0">B5-7GB Bydgosrdz, Poland</p>
+                </div>
+                <div class="p-2 flex-fill bd-highlight mb-3 mb-md-0">
+                    <h5 class="places">Ofertas</h5>
+                    <p class="mb-0">ul Reyana 2-4</p>
+                    <p class="mb-0">A0-100 Torun,</p>
+                    <p class="mb-0">Poland</p>
+                </div>
+                <div class="p-2 flex-fill bd-highlight mb-3 mb-md-0">
+                    <h5 class="places">Mejores destinos</h5>
+                    <p class="mb-0">Brain Embassy</p>
+                    <p class="mb-0">Alaya Jerasublisuble RS123</p>
+                    <p class="mb-0">02-222 Warsawa</p>
+                </div>
+                <div class="p-2 flex-fill bd-highlight mb-3 mb-md-0">
+                    <h5 class="places">Objetivos</h5>
+                    <p class="mb-0">Relajarse</p>
+                    <p class="mb-0">Negocios</p>
+                    <p class="mb-0">Surf</p>
+                </div>
+                <div class="p-2 flex-fill bd-highlight mb-3 mb-md-0">
+                    <h5 class="places">Direccion</h5>
+                    <p class="mb-0">Av. Omar Ibn Al Khattab, Rabat, Marruecos</p>
+                </div>
+            </div>
+            <div class="line mb-3 mx-auto"></div>
+        </div>
+        <div class="row bottom-part">
+            <div class="d-lg-flex justify-content-between bd-highlight col-md-12 mb-5 px-5">
+                <div class="p-2 align-self-center flex-fill bd-highlight redes">
+                    <div class="fa fa-facebook px-2"></div>
+                    <div class="fa fa-linkedin px-2"></div>
+                    <div class="fa fa-twitter px-2"></div>
+                    <div class="fa fa-instagram px-2"></div>
+                </div>
+                          
+                <div class="p-2 row flex-fill bd-highlight justify-content-left foot_final">
+                    <div class="p-2 d-lg-flex">
+                        <div class="p-2 flex-fill d-flex bd-highlight">Servicios</div>
+                        <div class="p-2 flex-fill d-flex bd-highlight">Sobre nosotros</div>
+                        <div class="p-2 flex-fill d-flex bd-highlight">Ofertas</div>
+                        <div class="p-2 flex-fill d-flex bd-highlight">Testimonios</div>
+                        <div class="p-2 flex-fill d-flex bd-highlight">Consejos</div>
+                        <div class="p-2 flex-fill d-flex bd-highlight">Blog</div>
+                        <div class="p-2 flex-fill d-flex bd-highlight">Colaborar</div>
+                        <div class="p-2 flex-fill d-flex bd-highlight">Tienda</div>
+                        <div class="p-2 flex-fill d-flex bd-highlight">Contacto</div>
+                    </div>
+                </div>
+                <div class="p-2 align-self-center flex-fill bd-highlight">
+                    <div class="fa fa-mobile px-2 grey-text">&nbsp;&nbsp;<span id="contact">00212688779290</span></div>
+                    <div class="fa fa-envelope-o px-2 grey-text">&nbsp;&nbsp;moroccan-shop@example.com</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</footer>
+
+
+
+  <!-- Modal para mandar al visitador a la pagina -->
+  <div id="modalTab" class="modal-tab">
+    <button class="button-open-modal" onclick="mostrarModal()">Abrir</button>
+    <a href="#" class="close" onclick="cerrarModal()">&times;</a>
+    <div class="modal-tab-content">
+      <div class="presentation text-center">
+        <div class="ir">
+            <h2>¿A dónde quieres ir?</h2>
+            <a href="/html/casablanca.html" style="display: block;">Casablanca</a>
+            <a href="/html/rabat.html" style="display: block;">Rabat</a>
+            <a href="/html/chefchaoun.html" style="display: block;">Chefchaouen</a>
+            <a href="/html/marrakech.html" style="display: block;">Marrakech</a>
+            <a href="#" style="display: block;">Fez</a>
+            <a href="/html/tanger.html" style="display: block;">Tanger</a>
+            <a href="/html/essaouira.html" style="display: block;">Essaouira</a>
+            <a href="#" style="display: block;">Agadir</a>
+            <a href="#" style="display: block;">Dakhla</a>
+            <a href="#" style="display: block;">Laayoune</a>
+          </div>
+        <div class="objetivo text-center">
+          <h2>¿Cuál es tu objetivo de viaje?</h2>
+          <a href="#" class="d-block">Descansar y relajarse</a>
+          <a href="#" class="d-block">Conocer nuevas culturas y tradiciones</a>
+          <a href="#" class="d-block">Visitar lugares históricos</a>
+          <a href="#" class="d-block">Probar comida local</a>
+          <a href="#" class="d-block">El tesoro de Marruecos: Argán</a>
+          <a href="#" class="d-block">Actividad deportiva: Surf</a>
+          <a href="#" class="d-block">Aprender nuevo idioma</a>
+          <a href="#" class="d-block">Hacer negocios</a>
+          <a href="#" class="d-block">Participar en eventos culturales</a>
+          <a href="#" class="d-block">Realizar voluntariado en una comunidad</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+<!-------------------FINAL DEL FOOTER-------------------------------->
+
+<!-----MI JS-->
+<script src="/main.js"></script>
+<script src="/js/marrakech.js"></script>
+
+<!----JS DE BOOTSTRAP-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js" integrity="sha384-fbbOQedDUMZZ5KreZpsbe1LCZPVmfTnH7ois6mU1QK+m14rQ1l2bGBq41eYeM/fS" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.10.2/umd/popper.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/js/bootstrap.min.js"></script>
+
+
+  </body>
+</html>

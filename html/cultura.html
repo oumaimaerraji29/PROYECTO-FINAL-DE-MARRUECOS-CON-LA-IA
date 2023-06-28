@@ -1,0 +1,447 @@
+<!doctype html>
+<html lang="es" data-bs-theme="auto">
+
+<head>
+  <!--Metas-->
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description"
+    content="Prepárate para sumergirte en la cultura, la historia y la belleza de Marruecos mientras nuestro compañero de viajes inteligente te acompaña en cada paso del camino, asegurándose de que tu viaje sea inolvidable y sin complicaciones. ¡Descubre Marruecos de una manera completamente nueva con nuestro blog de viajes y su compañero de viajes inteligente!" />
+  <meta name="keywords"
+    content="Morocco, Marruecos, Maroc, Rabat, Marrakech, Casablanca, Morocco national football team, marocco, tanger, essaouira, Agadir" />
+  <meta name="author" content="Oumaima Erraji" />
+  <meta name="copyright" content="Copyright Morocco Exploration" />
+  <title id="title">Explorando Marruecos: Viajes sin complicaciones con nuestro compañero de viaje inteligente</title>
+
+  <!-- - favicon-->
+  <link rel="shortcut icon" href="/imagenes/marruecos.png" type="image/svg+xml">
+  <!--BOOTSTRAP CSS-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.2/css/bootstrap.min.css">
+  <!---font awesome-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!--CSS OUMAIMA-->
+  <link href="/style.css" rel="stylesheet">
+  <link rel="stylesheet" href="/css/cultura.css">
+</head>
+
+<!------------------------------------------------BODY---------------------------------------------------------->
+
+<body>
+
+  <!---------------HEADER-------------->
+  <div>
+    <div class="header-dark">
+      <nav class="navbar navbar-dark navbar-expand-md navigation-clean-search">
+        <div class="container">
+          <a class="navbar-brand" href="/index.html"><b>Moroccan Exploration</b></a><button class="navbar-toggler"
+            data-toggle="collapse" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span
+              class="navbar-toggler-icon"></span></button>
+          <div class="collapse navbar-collapse" id="navcol-1">
+            <ul class="nav navbar-nav">
+              <li class="nav-item" role="presentation"><a class="nav-link" href="/index.html">Inicio</a></li>
+              <li class="dropdown"><a class="dropdown-toggle nav-link dropdown-toggle" data-toggle="dropdown"
+                  aria-expanded="false" href="#">Destinos</a>
+                <div class="dropdown-menu" role="menu">
+                  <a class="dropdown-item" href="/html/rabat.html"><img src="/imagenes/rabat.png">Rabat</a>
+                  <a class="dropdown-item" href="/html/marrakech.html"><img
+                      src="/imagenes/marrakech-essaouira.png">Marrakech</a>
+                  <a class="dropdown-item" href="/html/chefchaoun.html"><img
+                      src="/imagenes/tanger-mapa.png">Chefchaoun</a>
+                  <a class="dropdown-item" href="/html/casablanca.html"><img
+                      src="/imagenes/casablanca.png">Casablanca</a>
+                  <a class="dropdown-item" href="/html/tanger.html"><img src="/imagenes/tanger-mapa.png">Tanger</a>
+                  <a class="dropdown-item" href="/html/essaouira.html"><img
+                      src="/imagenes/marrakech-essaouira.png">Essaouira</a>
+
+                </div>
+              </li>
+              <li class="dropdown"><a class="dropdown-toggle nav-link dropdown-toggle" data-toggle="dropdown"
+                  aria-expanded="false" href="#">Que ver </a>
+                <div class="dropdown-menu" role="menu">
+                    <a class="dropdown-item" role="presentation" href="/html/argan.html">El Oro marroqui</a>
+                    <a class="dropdown-item" role="presentation" href="#">Playas</a>
+                  <a class="dropdown-item" role="presentation" href="/html/alimentos.html">alimentos</a>
+                  <a class="dropdown-item" role="presentation" href="/html/gastronomia.html">Gastronomia</a>
+                  <a class="dropdown-item" role="presentation" href="/html/cultura.html">Cultura</a>
+                  <a class="dropdown-item" role="presentation" href="#">Actividades</a>
+                  <a class="dropdown-item" role="presentation" href="#">Negocios</a>
+                </div>
+              </li>
+
+              <li class="nav-item" role="presentation"><a class="nav-link" href="/html/sobre-nosotros.html">Sobre
+                  Nosotros</a></li>
+              <li class="nav-item" role="presentation"><a class="nav-link" href="/html/contacto.html">Contacto</a></li>
+            </ul>
+            <form class="form-inline mr-auto" target="_self">
+              <div class="form-group">
+                <label for="search-field"><i class="fa fa-search"></i></label>
+                <input class="form-control search-field" type="search" name="search" id="search-field">
+              </div>
+            </form>
+            </span><a class="btn btn-light action-button" role="button" href="/html/cuenta.html">Cuenta</a>
+
+            <!--Botón para abrir el modal-->
+            <button type="button" class="btn_modal btn btn-primary" data-toggle="modal" data-target="#videoModal">
+              Modal
+            </button>
+
+            <!-- Modal de Video-->
+            <div class="modal fade" id="videoModal" tabindex="-1" role="dialog" aria-labelledby="videoModalLabel"
+              aria-hidden="true">
+              <div class="modal-dialog modal-centered" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Cerrar">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <div class="modal-body">
+                    <div class="embed-responsive embed-responsive-16by9">
+                      <!-- mi video -->
+                      <video id="videoPlayer" class="embed-responsive-item" width="1000" height="900" controls autoplay
+                        loop>
+                        <source src="/videos/welcome.mp4" type="video/mp4">
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!----FINAL DEL BUTTON DEL MODAL---->
+          </div>
+        </div>
+      </nav>
+    </div>
+  </div>
+  <!------------------FINAL HEADER---------------------->
+    <!--------FECHA Y HORA ------->
+    <div id="fechaHora"></div>
+    <!---------------------------->
+
+
+
+
+    <main class="people">
+        <div class=".container-fluid">
+            <img src="/imagenes/people.jpg" class="img-fluid" alt="personas de Marruecos">
+
+            <h2><b>Personas de Marruecos</b></h2>
+            <p class="text-center">Hay muchas razones para visitar un hermoso país como Marruecos, pero lo que lo
+                convierte en un gran destino para viajar es su gente. El pueblo de Marruecos tiene una rica historia y
+                un patrimonio fascinante que influyó en la forma en que viven, su cultura, sus idiomas y sus cocinas.
+                Estoy orgulloso de ser marroquí, y quiero compartir mis conocimientos sobre el hermoso pueblo marroquí.
+            </p>
+            <br>
+
+            <video controls width="50%" height="auto" autoplay loop muted>
+                <source src="/videos/moroccan-people.mp4" type="video/mp4">
+            </video>
+
+
+            <h2><b>¿Quiénes son los habitantes de Marruecos?</b></h2>
+
+            <p class="text-center">Hoy Marruecos es el hogar de más de 36 millones de personas; la mayoría de ellos son
+                árabes y amazigh (bereberes), que significa "el pueblo libre". La religión principal del pueblo de
+                Marruecos es el Islam, debido al impacto masivo de los árabes cuando llegaron al país. Marruecos es
+                también el hogar de una minoría de judíos y cristianos que viven en armonía con los musulmanes, lo que
+                hace de los marroquíes uno de los mejores ejemplos de cómo las personas de diferentes ideologías y
+                religiones pueden vivir juntas en paz.</p>
+
+            <img src="/imagenes/people2.jpg" class="img-fluid" alt="personas de Marruecos">
+
+            <h2><b>¿Cómo es la gente en Marruecos?</b></h2>
+
+            <p class="text-center">La gente de Marruecos es conocida por su fuerte sentido de hospitalidad, generosidad.
+                Son tolerantes y acogedores, especialmente con los extranjeros. Tratan muy bien a los demás y son
+                amigables con todos, sin importar de qué raza sean o sus creencias. Mientras sean respetados, siempre
+                responderán con amabilidad y te tratarán como uno de ellos.
+
+                Los marroquíes están muy apegados a su identidad, tradición y cultura, pero al mismo tiempo, los
+                encontrarás respetuosos y de mente abierta. E incluso si tienen sus luchas, nunca dudarán en extender la
+                mano a alguien que necesita ayuda. El mejor ejemplo es Terry, un viajero estadounidense de mediana edad
+                atrapado en Marruecos debido al cierre de los viajes debido a la pandemia de coronavirus. Puedes ver su
+                video de youtube a continuación, donde explica su experiencia con los marroquíes, y espero que anime a
+                aquellos que todavía tienen dudas sobre visitar Marruecos.</p>
+
+            <video controls width="50%" height="auto" autoplay loop muted>
+                <source src="/videos/marrakech-people.mp4" type="video/mp4">
+            </video>
+
+            <h2><b>¿Qué idiomas hablan los marroquíes?</b></h2>
+            <p class="text-center"> Hay un total de <b>5 idiomas</b> diferentes que se hablan en Marruecos:
+                <br>
+                El idioma oficial del país es el <b>árabe</b>. Aún así, el idioma utilizado por el pueblo de Marruecos
+                es Darija, una forma de árabe influenciada principalmente por Tamazight (idioma bereber), y en menor
+                medida por el francés y el español.
+                <br>
+                <br>
+                Un tercio de la población también habla <b>francés</b>, y es reconocido como el idioma oficial de las
+                empresas y el gobierno. El inglés solo lo habla el 15% de los marroquíes, pero está recibiendo más
+                interés de la generación más joven que se dio cuenta de su valor y quiere ponerse en contacto con el
+                resto del mundo. También puede encontrar una minoría de personas que hablan español, turco y muchos
+                otros idiomas en las zonas turísticas, por lo que no tendrá problemas para comunicarse con los
+                marroquíes.
+                <br>
+                <br>
+                La mayoría de los bereberes todavía hablan <b>tamazight</b>. Si visitas pueblos bereberes para descubrir
+                sus artesanos y su historia, encontrarás personas que hablan solo el idioma bereber.
+            </p>
+            <br>
+
+            <h2><b>¿Cuál es la vestimenta tradicional de los marroquíes?</b></h2>
+
+
+            <p class="text-center">La vestimenta tradicional que los marroquíes conservaron durante siglos es <b>la
+                    Djellaba</b>, que es una túnica larga y holgada que cuelga hasta los tobillos, con mangas completas
+                y una capucha holgada llamada <b>"kob"</b> utilizada para proteger la cabeza del calor del sol. <br>
+                Tanto hombres como mujeres usan el Djellaba, y la única forma de usarlo es desde la parte inferior, ya
+                que no tiene una abertura de cremallera. <br>
+
+                Los Djellabas más comunes utilizados por los lugareños son monocolores, pero hay muchas variaciones y
+                estilos para todos los gustos.</p>
+
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <img src="/imagenes/Djellaba-Man.jpg" class="img-fluid" alt="Imagen 1">
+                    </div>
+                    <div class="col-md-6">
+                        <img src="/imagenes/Djellaba-Women (1).jpg" class="img-fluid" alt="Imagen 2">
+                    </div>
+                </div>
+            </div>
+
+            <p class="text-center">Para ocasiones especiales como <b>bodas</b>, los hombres suelen usar un traje o una
+                Djellaba de color claro con Belgha, que son zapatillas sin tacón hechas de cuero.
+                <br>
+                <br>
+                Las mujeres usan Kaftan, otra túnica larga y fluida hecha de telas lujosas, decorada con hermosas
+                cuentas y trenzas. O usan el Tachchita, otro impresionante vestido largo, pero esta vez es una prenda de
+                dos piezas, el sobrevestido con muchos patrones y detalles y el vestido interior. En general, las
+                mujeres usan tanto el caftán como el tackchita con un cinturón elegante que les queda bien a ellas y a
+                Sherbil, que es casi el mismo que el Belgha de los hombres pero profusamente decorado.
+            </p>
+
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <img src="/imagenes/kaftan1.jpg" class="img-fluid" alt="Imagen 1">
+                    </div>
+                    <div class="col-md-6">
+                        <img src="/imagenes/artesana-1.jpg" class="img-fluid" alt="Imagen 2">
+                    </div>
+                </div>
+            </div>
+
+            <p class="text-center">Las <b>bodas marroquíes</b> son una celebración única y espectacular que destaca por
+                su gran belleza y no se puede pasar por alto. Estos eventos nupciales son una muestra deslumbrante de la
+                rica cultura y tradiciones del país. Desde los impresionantes vestidos hasta las elaboradas decoraciones
+                y el ambiente festivo, cada aspecto de las bodas marroquíes refleja la belleza y el encanto de esta
+                antigua tierra.<br>
+                <br>
+                Una de las características más destacadas de las bodas marroquíes es la vestimenta. Las novias lucen
+                vestidos tradicionales deslumbrantes, con ricos tejidos y bordados exquisitos que realzan su belleza y
+                elegancia. Estos vestidos suelen ser vibrantes, llenos de colores vivos y detalles intrincados que
+                capturan la atención de todos los presentes. Además, los accesorios y joyas utilizados añaden un toque
+                de lujo y sofisticación, completando el conjunto de la novia de manera impresionante.
+                <br>
+                <br>
+                La decoración en las bodas marroquíes es simplemente deslumbrante. Los espacios se transforman en
+                auténticos paraísos llenos de luces brillantes, telas lujosas y flores exóticas. Los colores vibrantes,
+                como el dorado, el rojo y el azul, se utilizan para crear una atmósfera festiva y alegre. Los detalles
+                ornamentados, como los mosaicos y las tallas en madera, agregan un toque artístico y tradicional a cada
+                rincón del lugar. Todo esto crea un ambiente mágico y encantador que transporta a los invitados a un
+                mundo de belleza y maravilla.
+                <br>
+                <br>
+                La música y la danza son elementos fundamentales en las bodas marroquíes, y añaden un encanto adicional
+                a la celebración. La música tradicional, como el famoso "chaabi" y el "andaluz", llena el aire y anima a
+                todos a bailar y celebrar. Los movimientos elegantes y gráciles de la danza del vientre y las danzas
+                folclóricas marroquíes crean un espectáculo visual fascinante que refleja la pasión y la alegría de la
+                ocasión. Estas expresiones artísticas son una parte integral de la belleza y el encanto de las bodas
+                marroquíes.
+                <br>
+                <br>
+                En resumen, las bodas marroquíes son una celebración impresionante que no se puede pasar por alto. La
+                belleza de estas ceremonias radica en cada detalle cuidadosamente planeado, desde los trajes
+                tradicionales hasta la decoración exuberante y las expresiones artísticas. Asistir a una boda marroquí
+                es sumergirse en un mundo de colores vibrantes, música cautivadora y una atmósfera llena de alegría y
+                emoción. Es un testimonio de la rica herencia cultural del país y una experiencia inolvidable para todos
+                los presentes.
+            </p>
+
+            <video controls width="50%" height="auto" autoplay loop muted>
+                <source src="/videos/boda-1.mp4" type="video/mp4">
+            </video>
+        </div>
+    </main>
+
+    <!-----CHATBOT HABLADOR---->
+
+    <div class="bot-hablador">
+        <div class="bot-icon">
+            <img class="bot" src="/imagenes/chatbot.jpg" alt="#">
+        </div>
+        <div class="bot-modal">
+            <button class="bot-close">Cerrar</button>
+            <img class="bot" src="/imagenes/chatbot.jpg" alt="#">
+            <button class="button_bot">Hablamos!!!</button>
+        </div>
+    </div>
+
+    <!------------------------------------------------------------------------------------------>
+
+    <footer>
+        <div class="container-fluid foot mx-auto">
+            <div class="row justify-content-center top-part">
+                <div class="col-md-6 text-center center-content">
+                    <div class="d-flex-inline">
+                        <h3 class="footer-heading">¿Te interesaría una colaboración?</h3>
+                    </div>
+                    <div class="d-flex-inline">
+                        <p>"¡Únete a mi equipo y juntos hagamos grandes cosas! Estoy buscando mentes creativas y
+                            apasionadas para colaborar en proyectos emocionantes. Si te encanta el desafío y quieres
+                            formar parte de algo especial, ¡hablemos y descubramos las oportunidades que podemos crear
+                            juntos!"</p>
+                    </div>
+
+                    <div class="d-flex-inline pt-2">
+                        <button class="btn-pink btn" onclick="mostrarInformacionContacto()">Contactarme</button>
+                    </div>
+
+                </div>
+            </div>
+            <div class="row">
+                <div class="line mb-3 mx-auto"></div>
+                <div class="d-md-flex px-5 justify-content-around bd-highlight col-md-12 pt-5 pb-5 mb-3 foot_maroc">
+                    <div class="p-2 flex-fill bd-highlight mb-5 mb-md-0">
+                        <h3>Moroccan Exploration</h3>
+                        <small>Copyright &copy 2023</small>
+                    </div>
+                    <div class="p-2 flex-fill bd-highlight mb-3 mb-md-0">
+                        <h5 class="places">Enlaces Rapidos</h5>
+                        <p class="mb-0">Bydgoszcz Centrum Burnesa</p>
+                        <p class="mb-0">ul Pzzenmdcwa 25, ibsura 24,</p>
+                        <p class="mb-0">B5-7GB Bydgosrdz, Poland</p>
+                    </div>
+                    <div class="p-2 flex-fill bd-highlight mb-3 mb-md-0">
+                        <h5 class="places">Ofertas</h5>
+                        <p class="mb-0">ul Reyana 2-4</p>
+                        <p class="mb-0">A0-100 Torun,</p>
+                        <p class="mb-0">Poland</p>
+                    </div>
+                    <div class="p-2 flex-fill bd-highlight mb-3 mb-md-0">
+                        <h5 class="places">Mejores destinos</h5>
+                        <p class="mb-0">Brain Embassy</p>
+                        <p class="mb-0">Alaya Jerasublisuble RS123</p>
+                        <p class="mb-0">02-222 Warsawa</p>
+                    </div>
+                    <div class="p-2 flex-fill bd-highlight mb-3 mb-md-0">
+                        <h5 class="places">Objetivos</h5>
+                        <p class="mb-0">Relajarse</p>
+                        <p class="mb-0">Negocios</p>
+                        <p class="mb-0">Surf</p>
+                    </div>
+                    <div class="p-2 flex-fill bd-highlight mb-3 mb-md-0">
+                        <h5 class="places">Direccion</h5>
+                        <p class="mb-0">Av. Omar Ibn Al Khattab, Rabat, Marruecos</p>
+                    </div>
+                </div>
+                <div class="line mb-3 mx-auto"></div>
+            </div>
+            <div class="row bottom-part">
+                <div class="d-lg-flex justify-content-between bd-highlight col-md-12 mb-5 px-5">
+                    <div class="p-2 align-self-center flex-fill bd-highlight redes">
+                        <div class="fa fa-facebook px-2"></div>
+                        <div class="fa fa-linkedin px-2"></div>
+                        <div class="fa fa-twitter px-2"></div>
+                        <div class="fa fa-instagram px-2"></div>
+                    </div>
+
+                    <div class="p-2 row flex-fill bd-highlight justify-content-left foot_final">
+                        <div class="p-2 d-lg-flex">
+                            <div class="p-2 flex-fill d-flex bd-highlight">Servicios</div>
+                            <div class="p-2 flex-fill d-flex bd-highlight">Sobre nosotros</div>
+                            <div class="p-2 flex-fill d-flex bd-highlight">Ofertas</div>
+                            <div class="p-2 flex-fill d-flex bd-highlight">Testimonios</div>
+                            <div class="p-2 flex-fill d-flex bd-highlight">Consejos</div>
+                            <div class="p-2 flex-fill d-flex bd-highlight">Blog</div>
+                            <div class="p-2 flex-fill d-flex bd-highlight">Colaborar</div>
+                            <div class="p-2 flex-fill d-flex bd-highlight">Tienda</div>
+                            <div class="p-2 flex-fill d-flex bd-highlight">Contacto</div>
+                        </div>
+                    </div>
+                    <div class="p-2 align-self-center flex-fill bd-highlight">
+                        <div class="fa fa-mobile px-2 grey-text">&nbsp;&nbsp;<span id="contact">00212688779290</span>
+                        </div>
+                        <div class="fa fa-envelope-o px-2 grey-text">&nbsp;&nbsp;moroccan-shop@example.com</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </footer>
+
+
+
+    <!-- Modal para mandar al visitador a la pagina -->
+    <div id="modalTab" class="modal-tab">
+        <button class="button-open-modal" onclick="mostrarModal()">Abrir</button>
+        <a href="#" class="close" onclick="cerrarModal()">&times;</a>
+        <div class="modal-tab-content">
+            <div class="presentation text-center">
+                <div class="ir">
+                    <h2>¿A dónde quieres ir?</h2>
+                    <a href="/html/casablanca.html" style="display: block;">Casablanca</a>
+                    <a href="/html/rabat.html" style="display: block;">Rabat</a>
+                    <a href="/html/chefchaoun.html" style="display: block;">Chefchaouen</a>
+                    <a href="/html/marrakech.html" style="display: block;">Marrakech</a>
+                    <a href="#" style="display: block;">Fez</a>
+                    <a href="/html/tanger.html" style="display: block;">Tanger</a>
+                    <a href="/html/essaouira.html" style="display: block;">Essaouira</a>
+                    <a href="#" style="display: block;">Agadir</a>
+                    <a href="#" style="display: block;">Dakhla</a>
+                    <a href="#" style="display: block;">Laayoune</a>
+                </div>
+                <div class="objetivo text-center">
+                    <h2>¿Cuál es tu objetivo de viaje?</h2>
+                    <a href="#" class="d-block">Descansar y relajarse</a>
+                    <a href="#" class="d-block">Conocer nuevas culturas y tradiciones</a>
+                    <a href="#" class="d-block">Visitar lugares históricos</a>
+                    <a href="#" class="d-block">Probar comida local</a>
+                    <a href="#" class="d-block">El tesoro de Marruecos: Argán</a>
+                    <a href="#" class="d-block">Actividad deportiva: Surf</a>
+                    <a href="#" class="d-block">Aprender nuevo idioma</a>
+                    <a href="#" class="d-block">Hacer negocios</a>
+                    <a href="#" class="d-block">Participar en eventos culturales</a>
+                    <a href="#" class="d-block">Realizar voluntariado en una comunidad</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-------------------FINAL DEL FOOTER-------------------------------->
+
+    <!-----MI JS-->
+    <script src="/main.js"></script>
+    <script src="/js/cultura.js"></script>
+
+
+    <!----JS DE BOOTSTRAP-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.10.2/umd/popper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/js/bootstrap.min.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"
+        integrity="sha384-fbbOQedDUMZZ5KreZpsbe1LCZPVmfTnH7ois6mU1QK+m14rQ1l2bGBq41eYeM/fS"
+        crossorigin="anonymous"></script>
+
+
+</body>
+
+</html>

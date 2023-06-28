@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Comforter+Brush&family=Heebo:wght@100;400;900&family=Lora&display=swap');
+
+:root {
+
+  /**
+   * colores
+   */
+
+  --battleship-gray: hsl(0, 0%, 53%);
+  --viridian-red: hsl(0, 82%, 31%);
+  --silver-chalice: hsl(0, 0%, 69%);
+  --mikado-yellow: hsl(139, 88%, 16%);
+  --granite-gray: hsl(0, 0%, 40%);
+  --independence: hsl(219, 20%, 32%);
+  --spanish-gray: hsl(0, 0%, 61%);
+  --oxford-blue: hsl(222, 46%, 17%);
+  --black-coral: hsl(223, 8%, 44%);
+  --eerie-black: hsl(210, 11%, 15%);
+  --light-gray: hsl(0, 0%, 80%);
+  --white-2: hsl(0, 0%, 98%);
+  --white-1: hsl(0, 0%, 100%);
+  --black: hsl(0, 0%, 0%);
+  --jet: hsl(17, 90%, 31%);
+
+
+  /**
+   * typografia
+   */
+  --font-family1: 'Abril Fatface', cursive;
+  --font-family2: 'Comforter Brush', cursive;
+  --font-family3: 'Heebo', sans-serif;
+
+
+  /**
+   * transition
+   */
+
+  --transition-1: 0.15s ease;
+  --transition-2: 0.35s ease;
+  --cubic-out: cubic-bezier(0.33, 0.85, 0.56, 1.02);
+
+}
+
+/***************************************/
+/* ******* fecha y hora *********** */
+#fechaHora {
+  height: 5vh;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 10px;
+  color: black;
+  text-align: center;
+}
+
+
+/* *************************************** */
+
+
+
+.people {
+  text-align: center;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.container-fluid {
+  max-width: 100%;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+}
+
+.text-center {
+  text-align: center;
+}
+
+video {
+  width: 50%;
+  height: auto;
+}
+
+h2 {
+  font-weight: bold;
+}
+
+p {
+  margin-bottom: 20px;
+}
+
+.container {
+  margin-top: 20px;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+.col-md-6 {
+  flex: 0 0 50%;
+  max-width: 50%;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+@media (min-width: 768px) {
+  .col-md-6 {
+    flex: 0 0 50%;
+    max-width: 50%;
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+}
