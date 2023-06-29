@@ -12,7 +12,7 @@
   ///////////////////VALIDADOR /////////////////////////
 
   document.getElementById("myForm").addEventListener("submit", function(event) {
-    var termsCheckbox = document.getElementById("termsCheckbox");
+    let termsCheckbox = document.getElementById("termsCheckbox");
     
     if (!termsCheckbox.checked) {
       event.preventDefault(); // Detiene el envío del formulario
@@ -22,3 +22,4 @@
     }
   });
   
+
