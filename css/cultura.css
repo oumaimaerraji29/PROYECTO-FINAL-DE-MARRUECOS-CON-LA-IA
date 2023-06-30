@@ -85,10 +85,13 @@ video {
 
 h2 {
   font-weight: bold;
+  font-family: var(--font-family1);
 }
 
 p {
   margin-bottom: 20px;
+  font-family: var(--font-family3);
+  font-size: 1.2em;
 }
 
 .container {
