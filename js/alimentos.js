@@ -4,7 +4,7 @@ const imageInput = document.getElementById('imageInput');
 
 
 const expectedResponses = [
-  { image: 'atay.jpg', label: 'té con menta' },
+  { image: 'imagenes/atay.jpg', label: 'té con menta' },
   { image: 'imagenes/couscous.jpg', label: 'Cuscús marroquí' },
   { image: 'imagenes/food1.jpg', label: 'platos marroqui' },
   { image: 'imagenes/harira1.jpg', label: 'harira marroqui' },
@@ -18,6 +18,8 @@ analyzeButton.addEventListener('click', () => {
 
   // Crear una URL para la imagen seleccionada
   const imageURL = URL.createObjectURL(selectedFile);
+
+  
   console.log(imageURL);
 
   // Buscar el objeto correspondiente en expectedResponses
