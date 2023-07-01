@@ -31,7 +31,7 @@
 <body>
 
   <!---------------HEADER-------------->
-  <div>
+  <header>
     <div class="header-dark">
       <nav class="navbar navbar-dark navbar-expand-md navigation-clean-search">
         <div class="container">
@@ -44,14 +44,13 @@
               <li class="dropdown"><a class="dropdown-toggle nav-link dropdown-toggle" data-toggle="dropdown"
                   aria-expanded="false" href="#">Destinos</a>
                 <div class="dropdown-menu" role="menu">
-                 <a class="dropdown-item" href="/html/rabat.html"><img src="/imagenes/rabat.png">Rabat</a>
+                    <a class="dropdown-item" href="/html/rabat.html"><img src="/imagenes/rabat.png">Rabat</a>
                     <a class="dropdown-item" href="/html/marrakech.html"><img
                         src="/imagenes/marrakech-essaouira.png">Marrakech</a>
                     <a class="dropdown-item" href="#"><img src="/imagenes/tanger-mapa.png">Chefchaoun</a>
                     <a class="dropdown-item" href="#"><img src="/imagenes/casablanca.png">Casablanca</a>
                     <a class="dropdown-item" href="#"><img src="/imagenes/tanger-mapa.png">Tanger</a>
                     <a class="dropdown-item" href="#"><img src="/imagenes/marrakech-essaouira.png">Essaouira</a>
-
                 </div>
               </li>
               <li class="dropdown"><a class="dropdown-toggle nav-link dropdown-toggle" data-toggle="dropdown"
@@ -110,19 +109,19 @@
         </div>
       </nav>
     </div>
-  </div>
+</header>
   <!------------------FINAL HEADER---------------------->
     <!--------FECHA Y HORA ------->
     <div id="fechaHora"></div>
     <!---------------------------->
-
-
-
-
     <main class="people">
-        <div class=".container-fluid">
-            <img src="/imagenes/people.jpg" class="img-fluid" alt="personas de Marruecos">
+        <div class="container-fluid">
 
+            <figure class="figure">
+                <img src="/imagenes/people.jpg" class="figure-img img-fluid" alt="personas de Marruecos">
+                <figcaption class="figure-caption">Calle de Marrakech</figcaption>
+              </figure>
+              
             <h2><b>Personas de Marruecos</b></h2>
             <p class="text-center">Hay muchas razones para visitar un hermoso país como Marruecos, pero lo que lo
                 convierte en un gran destino para viajar es su gente. El pueblo de Marruecos tiene una rica historia y
@@ -145,7 +144,12 @@
                 hace de los marroquíes uno de los mejores ejemplos de cómo las personas de diferentes ideologías y
                 religiones pueden vivir juntas en paz.</p>
 
-            <img src="/imagenes/people2.jpg" class="img-fluid" alt="personas de Marruecos">
+
+                <figure class="figure">
+                    <img src="/imagenes/people2.jpg" class="figure-img img-fluid" alt="Jamaa el Fena Marrakech">
+                    <figcaption class="figure-caption">Jamaa el Fena Marrakech</figcaption>
+                  </figure>
+
 
             <h2><b>¿Cómo es la gente en Marruecos?</b></h2>
 
@@ -201,11 +205,18 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-6">
-                        <img src="/imagenes/Djellaba-Man.jpg" class="img-fluid" alt="Imagen 1">
-                    </div>
-                    <div class="col-md-6">
-                        <img src="/imagenes/Djellaba-Women (1).jpg" class="img-fluid" alt="Imagen 2">
-                    </div>
+                        <figure class="figure">
+                          <img src="/imagenes/Djellaba-Man.jpg" class="figure-img img-fluid" alt="Imagen 1">
+                          <figcaption class="figure-caption">Djellaba Hombre</figcaption>
+                        </figure>
+                      </div>
+                      <div class="col-md-6">
+                        <figure class="figure">
+                          <img src="/imagenes/Djellaba-Women (1).jpg" class="figure-img img-fluid" alt="Imagen 2">
+                          <figcaption class="figure-caption">Djellaba Mujer</figcaption>
+                        </figure>
+                      </div>
+                    
                 </div>
             </div>
 
@@ -223,14 +234,23 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-6">
-                        <img src="/imagenes/kaftan1.jpg" class="img-fluid" alt="Imagen 1">
-                    </div>
-                    <div class="col-md-6">
-                        <img src="/imagenes/artesana-1.jpg" class="img-fluid" alt="Imagen 2">
-                    </div>
+                        <figure class="figure">
+                          <img src="/imagenes/kaftan1.jpg" class="figure-img img-fluid" alt="Imagen 1">
+                          <figcaption class="figure-caption">Caftan Marroqui</figcaption>
+                        </figure>
+                      </div>
+                      <div class="col-md-6">
+                        <figure class="figure">
+                          <img src="/imagenes/artesana-1.jpg" class="figure-img img-fluid" alt="Imagen 2">
+                          <figcaption class="figure-caption">Zapatillas Marroqui</figcaption>
+                        </figure>
+                      </div>
+                    
                 </div>
             </div>
 
+
+            <article>
             <p class="text-center">Las <b>bodas marroquíes</b> son una celebración única y espectacular que destaca por
                 su gran belleza y no se puede pasar por alto. Estos eventos nupciales son una muestra deslumbrante de la
                 rica cultura y tradiciones del país. Desde los impresionantes vestidos hasta las elaboradas decoraciones
@@ -267,6 +287,7 @@
                 emoción. Es un testimonio de la rica herencia cultural del país y una experiencia inolvidable para todos
                 los presentes.
             </p>
+        </article>
 
             <video controls width="50%" height="auto" autoplay loop muted>
                 <source src="/videos/boda-1.mp4" type="video/mp4">
@@ -292,22 +313,27 @@
     <footer>
         <div class="container-fluid foot mx-auto">
             <div class="row justify-content-center top-part">
-                <div class="col-md-6 text-center center-content">
-                    <div class="d-flex-inline">
-                        <h3 class="footer-heading">¿Te interesaría una colaboración?</h3>
-                    </div>
-                    <div class="d-flex-inline">
-                        <p>"¡Únete a mi equipo y juntos hagamos grandes cosas! Estoy buscando mentes creativas y
-                            apasionadas para colaborar en proyectos emocionantes. Si te encanta el desafío y quieres
-                            formar parte de algo especial, ¡hablemos y descubramos las oportunidades que podemos crear
-                            juntos!"</p>
-                    </div>
 
-                    <div class="d-flex-inline pt-2">
-                        <button class="btn-pink btn" onclick="mostrarInformacionContacto()">Contactarme</button>
+                <section>
+                    <div class="container">
+                      <div class="row justify-content-center">
+                        <div class="col-md-6 text-center center-content">
+                          <div class="d-flex-inline">
+                            <h3 class="footer-heading">¿Te interesaría una colaboración?</h3>
+                          </div>
+                          <div class="d-flex-inline">
+                            <p>"¡Únete a mi equipo y juntos hagamos grandes cosas! Estoy buscando mentes creativas y apasionadas para
+                              colaborar en proyectos emocionantes. Si te encanta el desafío y quieres formar parte de algo especial,
+                              ¡hablemos y descubramos las oportunidades que podemos crear juntos!"</p>
+                          </div>
+                          <div class="d-flex-inline pt-2">
+                            <button class="btn-pink btn" onclick="mostrarInformacionContacto()">Contactarme</button>
+                          </div>
+                        </div>
+                      </div>
                     </div>
+                  </section>
 
-                </div>
             </div>
             <div class="row">
                 <div class="line mb-3 mx-auto"></div>
@@ -390,7 +416,7 @@
             <div class="presentation text-center">
                 <div class="ir">
                     <h2>¿A dónde quieres ir?</h2>
-                   <a href="#" style="display: block;">Casablanca</a>
+                    <a href="#" style="display: block;">Casablanca</a>
                     <a href="/html/rabat.html" style="display: block;">Rabat</a>
                     <a href="#" style="display: block;">Chefchaouen</a>
                     <a href="/html/marrakech.html" style="display: block;">Marrakech</a>
