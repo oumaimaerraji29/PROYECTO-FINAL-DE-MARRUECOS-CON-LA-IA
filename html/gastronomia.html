@@ -31,7 +31,7 @@
 <body>
 
   <!---------------HEADER-------------->
-  <div>
+ <header>
     <div class="header-dark">
       <nav class="navbar navbar-dark navbar-expand-md navigation-clean-search">
         <div class="container">
@@ -44,14 +44,13 @@
               <li class="dropdown"><a class="dropdown-toggle nav-link dropdown-toggle" data-toggle="dropdown"
                   aria-expanded="false" href="#">Destinos</a>
                 <div class="dropdown-menu" role="menu">
-                    <a class="dropdown-item" href="/html/rabat.html"><img src="/imagenes/rabat.png">Rabat</a>
+                  <a class="dropdown-item" href="/html/rabat.html"><img src="/imagenes/rabat.png">Rabat</a>
                   <a class="dropdown-item" href="/html/marrakech.html"><img
                       src="/imagenes/marrakech-essaouira.png">Marrakech</a>
                   <a class="dropdown-item" href="#"><img src="/imagenes/tanger-mapa.png">Chefchaoun</a>
                   <a class="dropdown-item" href="#"><img src="/imagenes/casablanca.png">Casablanca</a>
                   <a class="dropdown-item" href="#"><img src="/imagenes/tanger-mapa.png">Tanger</a>
                   <a class="dropdown-item" href="#"><img src="/imagenes/marrakech-essaouira.png">Essaouira</a>
-
 
                 </div>
               </li>
@@ -111,7 +110,7 @@
         </div>
       </nav>
     </div>
-  </div>
+ </header>
   <!------------------FINAL HEADER---------------------->
   <main>
     <!--------FECHA Y HORA ------->
@@ -132,8 +131,11 @@
         cuscús de siete verduras, lo que significa que se cocina con al menos siete verduras diferentes.
       </p>
 
-      <img src="/imagenes/couscous2.jpg" class="img-fluid" alt="personas de Marruecos">
-
+      <figure class="figure">
+        <img src="/imagenes/couscous2.jpg" class="figure-img img-fluid" alt="Couscous Marroqui">
+        <figcaption class="figure-caption">Couscous Marroqui</figcaption>
+      </figure>
+      
 
       <!----->
       <h4>Tagine</h4>
@@ -143,12 +145,19 @@
         frescas y especias aromáticas. Tagine es también el nombre de la olla utilizada para cocinar, y está
         hecha de cerámica o arcilla.</p>
 
-      <img src="/imagenes/tajine1.jpg" class="img-fluid" alt="personas de Marruecos">
+        <figure class="figure">
+          <img src="/imagenes/tajine1.jpg" class="figure-img img-fluid" alt="Tajine Marroqui">
+          <figcaption class="figure-caption">Tajine Marroqui</figcaption>
+        </figure>
+
 
       <p class="text-center">Los tajines se cocinan lentamente en un brasero tradicional marroquí, lo que da como
         resultado una carne tierna celestial y una deliciosa salsa.</p>
 
-      <img src="/imagenes/tajine3.jpg" class="img-fluid" alt="personas de Marruecos">
+        <figure class="figure">
+          <img src="/imagenes/tajine3.jpg" class="figure-img img-fluid" alt="Tajine Marroqui">
+          <figcaption class="figure-caption">Tajine Marroqui</figcaption>
+        </figure>
 
       <!---->
       <h4>Pastilla</h4>
@@ -159,7 +168,10 @@
         almendras tostadas, azúcar y canela. También hay una versión de mariscos y una versión de postre llamada
         Jawhara.</p>
 
-      <img src="/imagenes/pastilla.jpg" class="img-fluid" alt="personas de Marruecos">
+        <figure class="figure">
+          <img src="/imagenes/pastilla.jpg" class="figure-img img-fluid" alt="pastilla Marroqui">
+          <figcaption class="figure-caption">Pastilla Marroqui</figcaption>
+        </figure>
 
       <!----->
       <h4>Harira</h4>
@@ -168,11 +180,14 @@
         todo el año. Está hecho de tomate, caldo, cebolla, garbanzos, lentejas y especias. Algunas familias
         también pueden agregar pequeñas rebanadas de carne roja y huevos batidos.</p>
 
-      <img src="/imagenes/harira1.jpg" class="img-fluid" alt="personas de Marruecos">
+        <figure class="figure">
+          <img src="/imagenes/harira1.jpg" class="figure-img img-fluid" alt="harira Marroqui">
+          <figcaption class="figure-caption">Harira Marroqui</figcaption>
+        </figure>
 
       <!----->
       <h4>Té de menta</h4>
-
+<article>
       <p class="text-center">La gente de Marruecos consume <b>té de menta</b> todos los días; Se puede servir en
         cualquier momento y va prácticamente con todo. Dondequiera que haya una reunión, encontrarás una tetera
         allí.<br>
@@ -185,9 +200,13 @@
         El té de menta marroquí contiene cuatro ingredientes simples: menta fresca, té en polvo (un tipo de té
         verde chino), azúcar y agua. Beber té es un hábito saludable en Marruecos, y es delicioso.
       </p>
+    </article>
 
-      <img src="/imagenes/atay.jpg" class="img-fluid" alt="personas de Marruecos">
 
+<figure class="figure">
+          <img src="/imagenes/atay.jpg" class="figure-img img-fluid" alt="té Marroqui">
+          <figcaption class="figure-caption">té Marroqui</figcaption>
+</figur>
 
 
 
@@ -214,22 +233,27 @@
   <footer>
     <div class="container-fluid foot mx-auto">
       <div class="row justify-content-center top-part">
-        <div class="col-md-6 text-center center-content">
-          <div class="d-flex-inline">
-            <h3 class="footer-heading">¿Te interesaría una colaboración?</h3>
-          </div>
-          <div class="d-flex-inline">
-            <p>"¡Únete a mi equipo y juntos hagamos grandes cosas! Estoy buscando mentes creativas y
-              apasionadas para
-              colaborar en proyectos emocionantes. Si te encanta el desafío y quieres formar parte de algo
-              especial,
-              ¡hablemos y descubramos las oportunidades que podemos crear juntos!"</p>
-          </div>
 
-          <div class="d-flex-inline pt-2">
-            <button class="btn-pink btn" onclick="mostrarInformacionContacto()">Contactarme</button>
+
+        <section>
+          <div class="container">
+            <div class="row justify-content-center">
+              <div class="col-md-6 text-center center-content">
+                <div class="d-flex-inline">
+                  <h3 class="footer-heading">¿Te interesaría una colaboración?</h3>
+                </div>
+                <div class="d-flex-inline">
+                  <p>"¡Únete a mi equipo y juntos hagamos grandes cosas! Estoy buscando mentes creativas y apasionadas para
+                    colaborar en proyectos emocionantes. Si te encanta el desafío y quieres formar parte de algo especial,
+                    ¡hablemos y descubramos las oportunidades que podemos crear juntos!"</p>
+                </div>
+                <div class="d-flex-inline pt-2">
+                  <button class="btn-pink btn" onclick="mostrarInformacionContacto()">Contactarme</button>
+                </div>
+              </div>
+            </div>
           </div>
-        </div>
+        </section>
 
         <!--------------------------->
       </div>
@@ -314,7 +338,7 @@
       <div class="presentation text-center">
         <div class="ir">
           <h2>¿A dónde quieres ir?</h2>
-        <a href="#" style="display: block;">Casablanca</a>
+          <a href="#" style="display: block;">Casablanca</a>
           <a href="/html/rabat.html" style="display: block;">Rabat</a>
           <a href="#" style="display: block;">Chefchaouen</a>
           <a href="/html/marrakech.html" style="display: block;">Marrakech</a>
