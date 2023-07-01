@@ -53,7 +53,6 @@
 *
 */
 body {
-    background: #e8cbc0;
     background: linear-gradient(to right, #e73018, #6bcf74);
     min-height: 100vh;
 }
