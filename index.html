@@ -30,7 +30,8 @@
 <body>
 
   <!---------------HEADER-------------->
-  <div>
+
+  <header>
     <div class="header-dark">
       <nav class="navbar navbar-dark navbar-expand-md navigation-clean-search">
         <div class="container">
@@ -50,7 +51,6 @@
                   <a class="dropdown-item" href="#"><img src="/imagenes/casablanca.png">Casablanca</a>
                   <a class="dropdown-item" href="#"><img src="/imagenes/tanger-mapa.png">Tanger</a>
                   <a class="dropdown-item" href="#"><img src="/imagenes/marrakech-essaouira.png">Essaouira</a>
-
 
                 </div>
               </li>
@@ -110,10 +110,11 @@
         </div>
       </nav>
     </div>
-  </div>
+  </header>
   <!------------------FINAL HEADER---------------------->
   <!----CAROUSEL---->
-  <div id="carouselExample" class="carousel slide  slide_img">
+  <main>
+    <figure id="carouselExample" class="carousel slide slide_img">
     <div class="carousel-inner">
       <div class="carousel-item active">
         <img src="/imagenes/artesana-4.jpg" class="d-block w-100" alt="imagen artesanal">
@@ -133,7 +134,7 @@
       <span class="carousel-control-next-icon" aria-hidden="true"></span>
       <span class="visually-hidden">Next</span>
     </button>
-  </div>
+</figure>
 
   <!-------------------LINEA-------------->
   <img src="/imagenes/lineadecorativa.png" class="img-fluid" alt="linea decorativa">
@@ -145,40 +146,41 @@
       <div class="row">
         <div class="col-lg-6 order-1 order-lg-2" data-aos="zoom-in" data-aos-delay="100">
           <div class="about-img">
-            <img src="/imagenes/mapa.png" alt="mapa de Marruecos>
-          </div>
-        </div>
-        <div class=" col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content">
-            <h3>Hay muchas razones por las cuales podrías considerar visitar Marruecos:</h3>
-            <p class="fst-italic">
-              Es un país con una rica historia y una fascinante mezcla de influencias culturales.
-            </p>
-            <p>
-              ofrece una gran diversidad de paisajes, desde el desierto del Sáhara hasta las montañas del Atlas y las
-              playas del Atlántico y el Mediterráneo.
-            </p>
-            <p>
-              La comida marroquí es conocida por su rica mezcla de sabores y aromas. Puedes probar platos tradicionales
-              como el cuscús, el tagine, la harira (una sopa) y una variedad de deliciosos dulces.
-            </p>
-            <p>
-              Los marroquíes son conocidos por su hospitalidad y amabilidad hacia los visitantes. Te recibirán con los
-              brazos abiertos y estarán dispuestos a compartir su cultura y tradiciones contigo.
-            </p>
-            <p>
-              es famoso por su artesanía, desde alfombras y cerámica hasta productos de cuero y joyería. Explorar los
-              zocos y mercados te permitirá disfrutar de una experiencia de compra única y llevar contigo recuerdos
-              especiales.
-            </p>
-            <p>
-              Marruecos ofrece una amplia gama de experiencias únicas, como pasar una noche en un campamento en el
-              desierto, visitar los famosos Jardines Majorelle en Marrakech, relajarte en los baños árabes tradicionales
-              (hammams) o explorar las impresionantes gargantas del Todra y del Dades.
-            </p>
+            <img src="/imagenes/mapa.png" alt="mapa de Marruecos">
           </div>
         </div>
 
+        <article class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content">
+          <h3>Hay muchas razones por las cuales podrías considerar visitar Marruecos:</h3>
+          <p class="fst-italic">
+            Es un país con una rica historia y una fascinante mezcla de influencias culturales.
+          </p>
+          <p>
+            Ofrece una gran diversidad de paisajes, desde el desierto del Sáhara hasta las montañas del Atlas y las
+            playas del Atlántico y el Mediterráneo.
+          </p>
+          <p>
+            La comida marroquí es conocida por su rica mezcla de sabores y aromas. Puedes probar platos tradicionales
+            como el cuscús, el tagine, la harira (una sopa) y una variedad de deliciosos dulces.
+          </p>
+          <p>
+            Los marroquíes son conocidos por su hospitalidad y amabilidad hacia los visitantes. Te recibirán con los
+            brazos abiertos y estarán dispuestos a compartir su cultura y tradiciones contigo.
+          </p>
+          <p>
+            Marruecos es famoso por su artesanía, desde alfombras y cerámica hasta productos de cuero y joyería. Explorar los
+            zocos y mercados te permitirá disfrutar de una experiencia de compra única y llevar contigo recuerdos
+            especiales.
+          </p>
+          <p>
+            Marruecos ofrece una amplia gama de experiencias únicas, como pasar una noche en un campamento en el
+            desierto, visitar los famosos Jardines Majorelle en Marrakech, relajarte en los baños árabes tradicionales
+            (hammams) o explorar las impresionantes gargantas del Todra y del Dades.
+          </p>
+        </article>
       </div>
+
+    </div>
   </section>
 
   <!---------------- End About Section --------------------->
@@ -289,7 +291,6 @@
           </div>
         </div>
       </div>
-
     </div>
   </section>
 
@@ -299,7 +300,8 @@
   <img src="/imagenes/lineadecorativa.png" class="img-fluid" alt="linea decorativa">
 
   <!-- ======= Gallery Section ======= -->
-  <section id="gallery" class="gallery">
+
+  <figure id="gallery" class="gallery">
 
     <div class="container" data-aos="fade-up">
       <div class="section-title">
@@ -389,11 +391,9 @@
             <img src="/imagenes/marrakech-plaza.jpg" alt="galeria" class="img-fluid">
           </div>
         </div>
-
-        </d>
-
+        </div>
       </div>
-  </section>
+    </figure>
 
   <!---------------- End Gallery Section --------------------------->
 
@@ -410,17 +410,17 @@
     </div>
 
     <div data-aos="fade-up">
-      <iframe style="border:0; width: 100%; height: 350px;"
-        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d26461.92473734901!2d-6.866989363123871!3d33.99919626256834!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xda76c89d87752c9%3A0xfa1d80a264d4ba2b!2sArribat%20Center!5e0!3m2!1ses!2ses!4v1687701424971!5m2!1ses!2ses"
-        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
-        referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+      <embed src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d26461.92473734901!2d-6.866989363123871!3d33.99919626256834!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xda76c89d87752c9%3A0xfa1d80a264d4ba2b!2sArribat%20Center!5e0!3m2!1ses!2ses!4v1687701424971!5m2!1ses!2ses"
+        width="1600" height="450" style="border:0;" allowfullscreen="" loading="lazy"  referrerpolicy="no-referrer-when-downgrade">
+</embed>
+   
     </div>
 
     <div class="container" data-aos="fade-up">
 
-      <div class="row mt-5">
-
-        <div class="col-lg-4">
+        <address class="row mt-5">
+          <div class="col-lg-4">
           <div class="info">
             <div class="address">
               <i class="bi bi-geo-alt"></i>
@@ -456,7 +456,7 @@
 
         <div class="col-lg-8 mt-5 mt-lg-0">
 
-          <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+          <form action="forms/contact.php" method="get" role="form" class="php-email-form">
             <div class="row">
               <div class="col-md-6 form-group">
                 <input type="text" name="name" class="form-control" id="name" placeholder="Nombre" required>
@@ -476,8 +476,6 @@
               <div class="error-message"></div>
               <div class="sent-message">Tu mensaje ha sido enviado, Gracias!</div>
             </div>
-            <!-- <div class="text-center"><button type="submit">Enviar</button>
-            </div> -->
 
             <div class="text-center">
               <button type="submit" onclick="mostrarAlerta()">Enviar</button>
@@ -487,7 +485,7 @@
 
         </div>
 
-      </div>
+      </address>
 
     </div>
   </section>
@@ -507,29 +505,34 @@
     </div>
   </div>
 
-
+</main>
   <!---------------------------------------------------------->
 
   <footer>
     <div class="container-fluid foot mx-auto">
       <div class="row justify-content-center top-part">
-        <div class="col-md-6 text-center center-content">
-          <div class="d-flex-inline">
-            <h3 class="footer-heading">¿Te interesaría una colaboración?</h3>
-          </div>
-          <div class="d-flex-inline">
-            <p>"¡Únete a mi equipo y juntos hagamos grandes cosas! Estoy buscando mentes creativas y apasionadas para
-              colaborar en proyectos emocionantes. Si te encanta el desafío y quieres formar parte de algo especial,
-              ¡hablemos y descubramos las oportunidades que podemos crear juntos!"</p>
-          </div>
 
-          <div class="d-flex-inline pt-2">
-            <button class="btn-pink btn" onclick="mostrarInformacionContacto()">Contactarme</button>
+        <section>
+          <div class="container">
+            <div class="row justify-content-center">
+              <div class="col-md-6 text-center center-content">
+                <div class="d-flex-inline">
+                  <h3 class="footer-heading">¿Te interesaría una colaboración?</h3>
+                </div>
+                <div class="d-flex-inline">
+                  <p>"¡Únete a mi equipo y juntos hagamos grandes cosas! Estoy buscando mentes creativas y apasionadas para
+                    colaborar en proyectos emocionantes. Si te encanta el desafío y quieres formar parte de algo especial,
+                    ¡hablemos y descubramos las oportunidades que podemos crear juntos!"</p>
+                </div>
+                <div class="d-flex-inline pt-2">
+                  <button class="btn-pink btn" onclick="mostrarInformacionContacto()">Contactarme</button>
+                </div>
+              </div>
+            </div>
           </div>
-        </div>
-
-        <!--------------------------->
+        </section>
       </div>
+      <!--------------------------->
       <div class="row">
         <div class="line mb-3 mx-auto"></div>
         <div class="d-md-flex px-5 justify-content-around bd-highlight col-md-12 pt-5 pb-5 mb-3 foot_maroc">
@@ -539,15 +542,15 @@
           </div>
           <div class="p-2 flex-fill bd-highlight mb-3 mb-md-0">
             <h5 class="places">Enlaces Rapidos</h5>
-            <p class="mb-0">Bydgoszcz Centrum Burnesa</p>
-            <p class="mb-0">ul Pzzenmdcwa 25, ibsura 24,</p>
-            <p class="mb-0">B5-7GB Bydgosrdz, Poland</p>
+            <p class="mb-0">Argan</p>
+            <p class="mb-0">Cultura,</p>
+            <p class="mb-0">Gastronomia</p>
           </div>
           <div class="p-2 flex-fill bd-highlight mb-3 mb-md-0">
-            <h5 class="places">Ofertas</h5>
-            <p class="mb-0">ul Reyana 2-4</p>
-            <p class="mb-0">A0-100 Torun,</p>
-            <p class="mb-0">Poland</p>
+            <h5 class="places">Ciudades</h5>
+            <p class="mb-0">Rabat</p>
+            <p class="mb-0">Marrakech</p>
+            <p class="mb-0">Casablanca</p>
           </div>
           <div class="p-2 flex-fill bd-highlight mb-3 mb-md-0">
             <h5 class="places">Mejores destinos</h5>
@@ -599,7 +602,6 @@
     </div>
 
   </footer>
-
 
 
   <!-- Modal para mandar al visitador a la pagina -->
