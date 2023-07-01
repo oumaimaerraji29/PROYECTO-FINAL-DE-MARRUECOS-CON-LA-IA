@@ -31,7 +31,7 @@
 <body>
 
   <!---------------HEADER-------------->
-  <div>
+  <header>
     <div class="header-dark">
       <nav class="navbar navbar-dark navbar-expand-md navigation-clean-search">
         <div class="container">
@@ -110,155 +110,161 @@
         </div>
       </nav>
     </div>
-  </div>
+  </header>
   <!------------------FINAL HEADER---------------------->
-    <section class="get-in-touch">
-        <h1 class="title">Contactanos</h1>
-        <form action="" method="get" class="contact-form row">
-            <div class="form-field col-lg-6">
-                <input id="name" class="input-text js-input" type="text" required>
-                <label class="label" for="name">Nombre</label>
-            </div>
-            <div class="form-field col-lg-6 ">
-                <input id="email" class="input-text js-input" type="email" required>
-                <label class="label" for="email">Correo</label>
-            </div>
-            <div class="form-field col-lg-6 ">
-                <input id="company" class="input-text js-input" type="text" required>
-                <label class="label" for="company">Pais</label>
-            </div>
-            <div class="form-field col-lg-6 ">
-                <input id="phone" class="input-text js-input" type="text" required>
-                <label class="label" for="phone">Movil</label>
-            </div>
-            <div class="form-field col-lg-12">
-                <input id="message" class="input-text js-input" type="text" required>
-                <label class="label" for="message">Mensaje</label>
-            </div>
-            <div class="form-field col-lg-12">
-                <input class="submit-btn" type="submit" value="Enviar">
-            </div>
-        </form>
-    </section>
-    <!---------------------------------------------------->
+  <section class="get-in-touch">
+    <h1 class="title">Contactanos</h1>
+    <form action="" method="get" class="contact-form row">
+      <div class="form-field col-lg-6">
+        <input id="name" class="input-text js-input" type="text" required>
+        <label class="label" for="name">Nombre</label>
+      </div>
+      <div class="form-field col-lg-6 ">
+        <input id="email" class="input-text js-input" type="email" required>
+        <label class="label" for="email">Correo</label>
+      </div>
+      <div class="form-field col-lg-6 ">
+        <input id="company" class="input-text js-input" type="text" required>
+        <label class="label" for="company">Pais</label>
+      </div>
+      <div class="form-field col-lg-6 ">
+        <input id="phone" class="input-text js-input" type="text" required>
+        <label class="label" for="phone">Movil</label>
+      </div>
+      <div class="form-field col-lg-12">
+        <input id="message" class="input-text js-input" type="text" required>
+        <label class="label" for="message">Mensaje</label>
+      </div>
+      <div class="form-field col-lg-12">
+        <input class="submit-btn" type="submit" value="Enviar">
+      </div>
+    </form>
+  </section>
+  <!---------------------------------------------------->
 
-    <!-----CHATBOT HABLADOR---->
+  <!-----CHATBOT HABLADOR---->
 
-    <div class="bot-hablador">
-        <div class="bot-icon">
-            <img class="bot" src="/imagenes/chatbot.jpg" alt="#">
+  <div class="bot-hablador">
+    <div class="bot-icon">
+      <img class="bot" src="/imagenes/chatbot.jpg" alt="#">
+    </div>
+    <div class="bot-modal">
+      <button class="bot-close">Cerrar</button>
+      <img class="bot" src="/imagenes/chatbot.jpg" alt="#">
+      <button class="button_bot">Hablamos!!!</button>
+    </div>
+  </div>
+
+  <!---------------------------------------------------------->
+
+  <footer>
+    <div class="container-fluid foot mx-auto">
+      <div class="row justify-content-center top-part">
+
+
+        <section>
+          <div class="container">
+            <div class="row justify-content-center">
+              <div class="col-md-6 text-center center-content">
+                <div class="d-flex-inline">
+                  <h3 class="footer-heading">¿Te interesaría una colaboración?</h3>
+                </div>
+                <div class="d-flex-inline">
+                  <p>"¡Únete a mi equipo y juntos hagamos grandes cosas! Estoy buscando mentes creativas y apasionadas para
+                    colaborar en proyectos emocionantes. Si te encanta el desafío y quieres formar parte de algo especial,
+                    ¡hablemos y descubramos las oportunidades que podemos crear juntos!"</p>
+                </div>
+                <div class="d-flex-inline pt-2">
+                  <button class="btn-pink btn" onclick="mostrarInformacionContacto()">Contactarme</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+      
+      <div class="row">
+        <div class="line mb-3 mx-auto"></div>
+        <div class="d-md-flex px-5 justify-content-around bd-highlight col-md-12 pt-5 pb-5 mb-3 foot_maroc">
+          <div class="p-2 flex-fill bd-highlight mb-5 mb-md-0">
+            <h3>Moroccan Exploration</h3>
+            <small>Copyright &copy 2023</small>
+          </div>
+          <div class="p-2 flex-fill bd-highlight mb-3 mb-md-0">
+            <h5 class="places">Enlaces Rapidos</h5>
+            <p class="mb-0">Bydgoszcz Centrum Burnesa</p>
+            <p class="mb-0">ul Pzzenmdcwa 25, ibsura 24,</p>
+            <p class="mb-0">B5-7GB Bydgosrdz, Poland</p>
+          </div>
+          <div class="p-2 flex-fill bd-highlight mb-3 mb-md-0">
+            <h5 class="places">Ofertas</h5>
+            <p class="mb-0">ul Reyana 2-4</p>
+            <p class="mb-0">A0-100 Torun,</p>
+            <p class="mb-0">Poland</p>
+          </div>
+          <div class="p-2 flex-fill bd-highlight mb-3 mb-md-0">
+            <h5 class="places">Mejores destinos</h5>
+            <p class="mb-0">Brain Embassy</p>
+            <p class="mb-0">Alaya Jerasublisuble RS123</p>
+            <p class="mb-0">02-222 Warsawa</p>
+          </div>
+          <div class="p-2 flex-fill bd-highlight mb-3 mb-md-0">
+            <h5 class="places">Objetivos</h5>
+            <p class="mb-0">Relajarse</p>
+            <p class="mb-0">Negocios</p>
+            <p class="mb-0">Surf</p>
+          </div>
+          <div class="p-2 flex-fill bd-highlight mb-3 mb-md-0">
+            <h5 class="places">Direccion</h5>
+            <p class="mb-0">Av. Omar Ibn Al Khattab, Rabat, Marruecos</p>
+          </div>
         </div>
-        <div class="bot-modal">
-            <button class="bot-close">Cerrar</button>
-            <img class="bot" src="/imagenes/chatbot.jpg" alt="#">
-            <button class="button_bot">Hablamos!!!</button>
+        <div class="line mb-3 mx-auto"></div>
+      </div>
+      <div class="row bottom-part">
+        <div class="d-lg-flex justify-content-between bd-highlight col-md-12 mb-5 px-5">
+          <div class="p-2 align-self-center flex-fill bd-highlight redes">
+            <div class="fa fa-facebook px-2"></div>
+            <div class="fa fa-linkedin px-2"></div>
+            <div class="fa fa-twitter px-2"></div>
+            <div class="fa fa-instagram px-2"></div>
+          </div>
+
+          <div class="p-2 row flex-fill bd-highlight justify-content-left foot_final">
+            <div class="p-2 d-lg-flex">
+              <div class="p-2 flex-fill d-flex bd-highlight">Servicios</div>
+              <div class="p-2 flex-fill d-flex bd-highlight">Sobre nosotros</div>
+              <div class="p-2 flex-fill d-flex bd-highlight">Ofertas</div>
+              <div class="p-2 flex-fill d-flex bd-highlight">Testimonios</div>
+              <div class="p-2 flex-fill d-flex bd-highlight">Consejos</div>
+              <div class="p-2 flex-fill d-flex bd-highlight">Blog</div>
+              <div class="p-2 flex-fill d-flex bd-highlight">Colaborar</div>
+              <div class="p-2 flex-fill d-flex bd-highlight">Tienda</div>
+              <div class="p-2 flex-fill d-flex bd-highlight">Contacto</div>
+            </div>
+          </div>
+          <div class="p-2 align-self-center flex-fill bd-highlight">
+            <div class="fa fa-mobile px-2 grey-text">&nbsp;&nbsp;<span id="contact">00212688779290</span>
+            </div>
+            <div class="fa fa-envelope-o px-2 grey-text">&nbsp;&nbsp;moroccan-shop@example.com</div>
+          </div>
         </div>
+      </div>
     </div>
 
-    <!---------------------------------------------------------->
-
-    <footer>
-        <div class="container-fluid foot mx-auto">
-            <div class="row justify-content-center top-part">
-                <div class="col-md-6 text-center center-content">
-                    <div class="d-flex-inline">
-                        <h3 class="footer-heading">¿Te interesaría una colaboración?</h3>
-                    </div>
-                    <div class="d-flex-inline">
-                        <p>"¡Únete a mi equipo y juntos hagamos grandes cosas! Estoy buscando mentes creativas y
-                            apasionadas para colaborar en proyectos emocionantes. Si te encanta el desafío y quieres
-                            formar parte de algo especial, ¡hablemos y descubramos las oportunidades que podemos crear
-                            juntos!"</p>
-                    </div>
-
-                    <div class="d-flex-inline pt-2">
-                        <button class="btn-pink btn" onclick="mostrarInformacionContacto()">Contactarme</button>
-                    </div>
-
-                </div>
-            </div>
-            <div class="row">
-                <div class="line mb-3 mx-auto"></div>
-                <div class="d-md-flex px-5 justify-content-around bd-highlight col-md-12 pt-5 pb-5 mb-3 foot_maroc">
-                    <div class="p-2 flex-fill bd-highlight mb-5 mb-md-0">
-                        <h3>Moroccan Exploration</h3>
-                        <small>Copyright &copy 2023</small>
-                    </div>
-                    <div class="p-2 flex-fill bd-highlight mb-3 mb-md-0">
-                        <h5 class="places">Enlaces Rapidos</h5>
-                        <p class="mb-0">Bydgoszcz Centrum Burnesa</p>
-                        <p class="mb-0">ul Pzzenmdcwa 25, ibsura 24,</p>
-                        <p class="mb-0">B5-7GB Bydgosrdz, Poland</p>
-                    </div>
-                    <div class="p-2 flex-fill bd-highlight mb-3 mb-md-0">
-                        <h5 class="places">Ofertas</h5>
-                        <p class="mb-0">ul Reyana 2-4</p>
-                        <p class="mb-0">A0-100 Torun,</p>
-                        <p class="mb-0">Poland</p>
-                    </div>
-                    <div class="p-2 flex-fill bd-highlight mb-3 mb-md-0">
-                        <h5 class="places">Mejores destinos</h5>
-                        <p class="mb-0">Brain Embassy</p>
-                        <p class="mb-0">Alaya Jerasublisuble RS123</p>
-                        <p class="mb-0">02-222 Warsawa</p>
-                    </div>
-                    <div class="p-2 flex-fill bd-highlight mb-3 mb-md-0">
-                        <h5 class="places">Objetivos</h5>
-                        <p class="mb-0">Relajarse</p>
-                        <p class="mb-0">Negocios</p>
-                        <p class="mb-0">Surf</p>
-                    </div>
-                    <div class="p-2 flex-fill bd-highlight mb-3 mb-md-0">
-                        <h5 class="places">Direccion</h5>
-                        <p class="mb-0">Av. Omar Ibn Al Khattab, Rabat, Marruecos</p>
-                    </div>
-                </div>
-                <div class="line mb-3 mx-auto"></div>
-            </div>
-            <div class="row bottom-part">
-                <div class="d-lg-flex justify-content-between bd-highlight col-md-12 mb-5 px-5">
-                    <div class="p-2 align-self-center flex-fill bd-highlight redes">
-                        <div class="fa fa-facebook px-2"></div>
-                        <div class="fa fa-linkedin px-2"></div>
-                        <div class="fa fa-twitter px-2"></div>
-                        <div class="fa fa-instagram px-2"></div>
-                    </div>
-
-                    <div class="p-2 row flex-fill bd-highlight justify-content-left foot_final">
-                        <div class="p-2 d-lg-flex">
-                            <div class="p-2 flex-fill d-flex bd-highlight">Servicios</div>
-                            <div class="p-2 flex-fill d-flex bd-highlight">Sobre nosotros</div>
-                            <div class="p-2 flex-fill d-flex bd-highlight">Ofertas</div>
-                            <div class="p-2 flex-fill d-flex bd-highlight">Testimonios</div>
-                            <div class="p-2 flex-fill d-flex bd-highlight">Consejos</div>
-                            <div class="p-2 flex-fill d-flex bd-highlight">Blog</div>
-                            <div class="p-2 flex-fill d-flex bd-highlight">Colaborar</div>
-                            <div class="p-2 flex-fill d-flex bd-highlight">Tienda</div>
-                            <div class="p-2 flex-fill d-flex bd-highlight">Contacto</div>
-                        </div>
-                    </div>
-                    <div class="p-2 align-self-center flex-fill bd-highlight">
-                        <div class="fa fa-mobile px-2 grey-text">&nbsp;&nbsp;<span id="contact">00212688779290</span>
-                        </div>
-                        <div class="fa fa-envelope-o px-2 grey-text">&nbsp;&nbsp;moroccan-shop@example.com</div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-    </footer>
+  </footer>
 
 
 
-    <!-- Modal para mandar al visitador a la pagina -->
-    <div id="modalTab" class="modal-tab">
-        <button class="button-open-modal" onclick="mostrarModal()">Abrir</button>
-        <a href="#" class="close" onclick="cerrarModal()">&times;</a>
-        <div class="modal-tab-content">
-            <div class="presentation text-center">
-                <div class="ir">
-                    <h2>¿A dónde quieres ir?</h2>
-                   <a href="#" style="display: block;">Casablanca</a>
+  <!-- Modal para mandar al visitador a la pagina -->
+  <div id="modalTab" class="modal-tab">
+    <button class="button-open-modal" onclick="mostrarModal()">Abrir</button>
+    <a href="#" class="close" onclick="cerrarModal()">&times;</a>
+    <div class="modal-tab-content">
+      <div class="presentation text-center">
+        <div class="ir">
+          <h2>¿A dónde quieres ir?</h2>
+          <a href="#" style="display: block;">Casablanca</a>
           <a href="/html/rabat.html" style="display: block;">Rabat</a>
           <a href="#" style="display: block;">Chefchaouen</a>
           <a href="/html/marrakech.html" style="display: block;">Marrakech</a>
@@ -268,40 +274,40 @@
           <a href="#" style="display: block;">Agadir</a>
           <a href="#" style="display: block;">Dakhla</a>
           <a href="#" style="display: block;">Laayoune</a>
-                </div>
-                <div class="objetivo text-center">
-                    <h2>¿Cuál es tu objetivo de viaje?</h2>
-                    <a href="#" class="d-block">Descansar y relajarse</a>
-                    <a href="#" class="d-block">Conocer nuevas culturas y tradiciones</a>
-                    <a href="#" class="d-block">Visitar lugares históricos</a>
-                    <a href="#" class="d-block">Probar comida local</a>
-                    <a href="#" class="d-block">El tesoro de Marruecos: Argán</a>
-                    <a href="#" class="d-block">Actividad deportiva: Surf</a>
-                    <a href="#" class="d-block">Aprender nuevo idioma</a>
-                    <a href="#" class="d-block">Hacer negocios</a>
-                    <a href="#" class="d-block">Participar en eventos culturales</a>
-                    <a href="#" class="d-block">Realizar voluntariado en una comunidad</a>
-                </div>
-            </div>
         </div>
+        <div class="objetivo text-center">
+          <h2>¿Cuál es tu objetivo de viaje?</h2>
+          <a href="#" class="d-block">Descansar y relajarse</a>
+          <a href="#" class="d-block">Conocer nuevas culturas y tradiciones</a>
+          <a href="#" class="d-block">Visitar lugares históricos</a>
+          <a href="#" class="d-block">Probar comida local</a>
+          <a href="#" class="d-block">El tesoro de Marruecos: Argán</a>
+          <a href="#" class="d-block">Actividad deportiva: Surf</a>
+          <a href="#" class="d-block">Aprender nuevo idioma</a>
+          <a href="#" class="d-block">Hacer negocios</a>
+          <a href="#" class="d-block">Participar en eventos culturales</a>
+          <a href="#" class="d-block">Realizar voluntariado en una comunidad</a>
+        </div>
+      </div>
     </div>
+  </div>
 
-    <!-------------------FINAL DEL FOOTER-------------------------------->
+  <!-------------------FINAL DEL FOOTER-------------------------------->
 
-    <!-----MI JS-->
-    <script src="/main.js"></script>
+  <!-----MI JS-->
+  <script src="/main.js"></script>
 
-    <!----JS DE BOOTSTRAP-->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
-        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
-        crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"
-        integrity="sha384-fbbOQedDUMZZ5KreZpsbe1LCZPVmfTnH7ois6mU1QK+m14rQ1l2bGBq41eYeM/fS"
-        crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.10.2/umd/popper.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/js/bootstrap.min.js"></script>
+  <!----JS DE BOOTSTRAP-->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+    integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"
+    integrity="sha384-fbbOQedDUMZZ5KreZpsbe1LCZPVmfTnH7ois6mU1QK+m14rQ1l2bGBq41eYeM/fS"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.10.2/umd/popper.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/js/bootstrap.min.js"></script>
 
 
 </body>
