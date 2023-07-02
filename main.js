@@ -5,7 +5,7 @@ const title = document.getElementById("title");
 const originalTitle = title.textContent;
 
 // un array de frases para animar
-var animWords = [
+let animWords = [
   "Explora sus paisajes impresionantes",
   "Sumérgete en la hospitalidad marroquí",
   "Saborea su exquisita gastronomía",
