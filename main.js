@@ -69,7 +69,7 @@ function mostrarModal() {
 }
 
 function cerrarModal() {
-  var modal = document.getElementById("modalTab");
+  let modal = document.getElementById("modalTab");
   modal.classList.remove("show");
   modal.classList.add("hidden");
 }
@@ -85,9 +85,9 @@ function mostrarAlerta() {
 //ALERTA CON MI CORREO Y TELEFONO EN INDEX.HTML BUTTON CONTACTAME///
 
 function mostrarInformacionContacto() {
-  var correoElectronico = "moroccan-shop@example.com";
-  var numeroTelefono = "00212688779290";
-  var informacionContacto = "Correo electrónico: " + correoElectronico + "\nNúmero de teléfono: " + numeroTelefono;
+  let correoElectronico = "moroccan-shop@example.com";
+  let numeroTelefono = "00212688779290";
+  let informacionContacto = "Correo electrónico: " + correoElectronico + "\nNúmero de teléfono: " + numeroTelefono;
   alert(informacionContacto);
 }
 
