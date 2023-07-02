@@ -34,7 +34,7 @@ let animSpeed = 3000; // 3 segundos
 
 // Función para cambiar dinámicamente el título
 function animateTitle() {
-  var currentIndex = 0;
+  let currentIndex = 0;
   setInterval(function () {
     title.textContent = animWords[currentIndex];
     currentIndex = (currentIndex + 1) % animWords.length;
@@ -63,7 +63,7 @@ $(document).ready(function () {
 ///////////////////////////////////////// MODAL LATERAL DE PREGUNTAS //////////////////////////////////////////////
 
 function mostrarModal() {
-  var modal = document.getElementById("modalTab");
+  let modal = document.getElementById("modalTab");
   modal.classList.remove("hidden");
   modal.classList.add("show");
 }
